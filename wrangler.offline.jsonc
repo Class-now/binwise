@@ -1,0 +1,12 @@
+// Offline / local config: no AI binding, so the worker uses deterministic lexical matching only.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "binwise",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  }
+}

@@ -38,7 +38,7 @@ Tokyo's 23 wards each have their own sorting rules (Shibuya: 可燃ごみ / 不�
 
 ### Task 1: Scaffold
 - `package.json` (build/dev/test scripts as above; dev = `wrangler dev -c wrangler.offline.jsonc --port 8798`), `tsconfig.json`, both wrangler configs, `.gitignore`, MIT `LICENSE` ("2026 Shotaro Takakura"), placeholder page.
-- [ ] build, type check and an empty test run pass
+- [x] build, type check and an empty test run pass
 
 ### Task 2: Rules dataset for three wards
 - Research the **official** ward pages (use web fetch/search): 渋谷区 (city.shibuya.tokyo.jp ごみ・リサイクル, 資源とごみの分け方・出し方, ごみ分別辞典 if published), 新宿区 (city.shinjuku.lg.jp 資源・ごみの分け方 / 分別辞典), 世田谷区 (city.setagaya.lg.jp 資源・ごみの分け方, 製品プラスチック 2025 changes if any). Record each source URL and the date read.
@@ -46,8 +46,8 @@ Tokyo's 23 wards each have their own sorting rules (Shibuya: 可燃ごみ / 不�
 - `data/wards/shibuya-schedule.json`: Shibuya's collection-day table by 町丁目 if it is published as a table (otherwise skip and rely on the user entering days).
 - `docs/data-sources.md`: every URL, date read, what was taken, and the licence/terms of use note (government info used as facts, with attribution).
 - Validation script `scripts/validate-data.mjs` (run in a vitest test): schema check, every part's category exists, every item has a source, no duplicate ids/aliases conflicts.
-- [ ] ≥150 items per ward with sources, validation test passes
-- [ ] data-sources.md complete
+- [x] ≥150 items per ward with sources, validation test passes
+- [x] data-sources.md complete
 Do NOT implement: wards other than these three.
 
 ### Task 3: Matching and AI pipeline
@@ -57,7 +57,7 @@ Do NOT implement: wards other than these three.
 - Prompt-injection hardening (text in images or queries is data), size limits, in-memory rate limit 30/min/IP, `Cache-Control: no-store`, no image logging or storage.
 - Fallback without AI: lexical matching only, English/Japanese only, marked in the trace.
 - Tests with a fake AI binding: composite item (PET bottle → 3 parts), weak match → alternatives, injection ignored, unknown → not found, fallback path.
-- [ ] API tests pass
+- [x] API tests pass
 
 ### Task 4: Web UI
 - Onboarding: pick ward (3) and language; optional collection days (weekday chips per category) or 町丁目 for Shibuya. Stored in localStorage.
@@ -65,7 +65,7 @@ Do NOT implement: wards other than these three.
 - Quiz mode "Sort it!" (10 items, ward-specific, score + explanations) and the impact counter.
 - Accessibility (labels, aria-live, colour not the only cue — category icons/text), 360 px layout, dark mode.
 - Headless Chromium smoke `scripts/smoke.mjs` against the offline dev server (search "PET bottle" in Shibuya → three part cards; quiz completes); screenshots to `docs/screenshots/` at 1280×800 and 390×844.
-- [ ] smoke passes, screenshots committed
+- [x] smoke passes, screenshots committed
 
 ### Task 5: Impact measurement and docs
 - `docs/impact.md` + the Theme Track paragraph: problem (mis-sorted household waste in Tokyo wards — rejected bags, contaminated recycling streams; cite the wards' own published figures on 資源 contamination / 不適正排出 if found, otherwise state it as the measurement goal without inventing numbers) and how we would measure success: (1) quiz accuracy before/after first week of use, (2) share of lookups where the user's guessed category (asked optionally before showing the answer) differed from the rule = mis-sorts prevented, (3) pilot with a building's 違反シール count before/after (needs a partner), (4) data freshness: rules re-checked against official pages monthly by `scripts/check-sources.mjs` (HEAD request + content hash change report).
@@ -73,7 +73,7 @@ Do NOT implement: wards other than these three.
 - `README.md`: what/why, live URL placeholder `https://binwise.<account>.workers.dev`, offline run, architecture (mermaid), data provenance, responsible AI (dataset-grounded answers, AI only identifies and translates), "Built with Llama" attribution, licences.
 - `docs/submission/devpost.md` (Inspiration, What it does, How we built it, Challenges, Accomplishments, What we learned, What's next, Theme paragraph). Honest; no invented personal stories (the author is a university student living alone in Shibuya — keep it at that).
 - `docs/submission/video-script.md` (2–3 min) and `scripts/record-demo.mjs` (Playwright headless 1280×720 recording with caption overlay, args base URL and out dir, outputs `demo-out/raw.webm` + `marks.json`).
-- [ ] docs complete, check-sources runs, record script produces a webm against the offline server
+- [x] docs complete, check-sources runs, record script produces a webm against the offline server
 
 ## Out of scope
 Accounts, server-side storage, wards beyond three, native apps, committing keys.

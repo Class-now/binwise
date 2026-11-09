@@ -1,0 +1,2032 @@
+{
+ "ward": "shinjuku",
+ "nameJa": "新宿区",
+ "nameEn": "Shinjuku City",
+ "searchUrl": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+ "sources": [
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/index09_01s.html",
+   "title": "家庭から出る資源・ごみ（新宿区）",
+   "readOn": "2026-11-10",
+   "taken": "資源・ごみの分け方・出し方ページ一覧、区で収集できないものの区分"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "title": "資源・ごみ分別辞典（最終更新2024年12月27日）",
+   "readOn": "2026-11-10",
+   "taken": "五十音順の品目別分別（約450品目）。印刷用PDF https://www.city.shinjuku.lg.jp/content/000394136.pdf"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "title": "資源プラスチックの出し方（最終更新2026年10月15日）",
+   "readOn": "2026-11-10",
+   "taken": "資源プラスチックの対象・出し方・回収できないもの"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00030.html",
+   "title": "令和6年4月からプラスチックの分別方法が変わりました！",
+   "readOn": "2026-11-10",
+   "taken": "製品プラスチック回収の開始時期（令和6年4月）と対象例"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/content/000409299.pdf",
+   "title": "チラシ「プラスチックは資源です」（日本語）",
+   "readOn": "2026-11-10",
+   "taken": "電子タバコ等の電池内蔵品は金属・陶器・ガラスごみ、30cm超は粗大ごみ"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "title": "燃やすごみの出し方（最終更新2026年4月3日）",
+   "readOn": "2026-11-10",
+   "taken": "燃やすごみの対象・出し方・迷いやすいもの"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "title": "金属・陶器・ガラスごみの出し方（最終更新2025年2月25日）",
+   "readOn": "2026-11-10",
+   "taken": "金属・陶器・ガラスごみの対象・出し方（危険物・ライター・水銀製品）"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "title": "びん、缶、ペットボトル、スプレー缶・カセットボンベ・乾電池の出し方（最終更新2025年4月1日）",
+   "readOn": "2026-11-10",
+   "taken": "出せるもの・出せないもの、6種類に分ける出し方"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "title": "古紙の出し方（最終更新2025年6月30日）",
+   "readOn": "2026-11-10",
+   "taken": "新聞・雑誌・雑がみ・段ボール・紙パックの出し方、古紙回収に出せないもの一覧"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00012.html",
+   "title": "紙パックの出し方",
+   "readOn": "2026-11-10",
+   "taken": "回収ボックス・集積所での紙パック回収、アルミ付きは燃やすごみ"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00013.html",
+   "title": "白色トレイの出し方",
+   "readOn": "2026-11-10",
+   "taken": "区施設の回収ボックス"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00014.html",
+   "title": "乾電池の出し方",
+   "readOn": "2026-11-10",
+   "taken": "乾電池・ボタン電池は資源の日"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_002052.html",
+   "title": "小型充電式電池の排出方法について（最終更新2025年4月1日）",
+   "readOn": "2026-11-10",
+   "taken": "令和7年4月から小型充電式電池・モバイルバッテリーを資源の日に回収、内蔵品の扱い"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00004.html",
+   "title": "使用済小型電子機器等の出し方",
+   "readOn": "2026-11-10",
+   "taken": "回収ボックス・窓口回収の品目と場所"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00016.html",
+   "title": "粗大ごみの出し方（最終更新2026年7月1日）",
+   "readOn": "2026-11-10",
+   "taken": "粗大ごみの基準（一辺おおむね30cm超）、申込方法、収集できないもの"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_05_00001.html",
+   "title": "粗大ごみの処理手数料一覧（最終更新2025年3月4日）",
+   "readOn": "2026-11-10",
+   "taken": "品目別手数料"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00019.html",
+   "title": "家電4品目の出し方",
+   "readOn": "2026-11-10",
+   "taken": "家電リサイクル法4品目の出し方・リサイクル料金"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00021.html",
+   "title": "家庭用パソコンの出し方",
+   "readOn": "2026-11-10",
+   "taken": "区では収集しない、メーカー回収・リネットジャパン宅配回収"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000109.html",
+   "title": "オートバイの出し方",
+   "readOn": "2026-11-10",
+   "taken": "二輪車リサイクルシステム"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000110.html",
+   "title": "自動車の出し方",
+   "readOn": "2026-11-10",
+   "taken": "自動車リサイクル法"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000111.html",
+   "title": "その他専門業者へ出すもの",
+   "readOn": "2026-11-10",
+   "taken": "有害・危険・処理困難物の一覧"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00022.html",
+   "title": "在宅医療廃棄物の出し方",
+   "readOn": "2026-11-10",
+   "taken": "注射針は使用済み注射針回収薬局へ"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00001.html",
+   "title": "資源・ごみの回収・収集曜日（最終更新2026年4月24日）",
+   "readOn": "2026-11-10",
+   "taken": "町名・丁目・番地別の回収・収集曜日表と地域別カレンダーPDF"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/content/000259262.pdf",
+   "title": "冊子「資源・ごみの分け方・出し方」日本語版（令和7年9月発行）",
+   "readOn": "2026-11-10",
+   "taken": "資源として回収できない紙、びん・缶・ペットボトルの出し方、電池内蔵品、区で収集できないもの"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "title": "資源・ごみの分別に関する印刷物",
+   "readOn": "2026-11-10",
+   "taken": "多言語版（英・韓・中・越・ネパール・ミャンマー・仏・タガログ・タイ・アラビア）の所在"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00016.html",
+   "title": "資源・ごみ分別アプリ「さんあ～る」の配信",
+   "readOn": "2026-11-10",
+   "taken": "区公式の分別アプリ（収集日・分別辞典・AIチャットボット）の存在"
+  },
+  {
+   "url": "https://www.shinjuku-sodai.com",
+   "title": "新宿区 粗大ごみ インターネット受付（区の粗大ごみページからリンク）",
+   "readOn": "2026-11-10",
+   "taken": "申込窓口の所在のみ確認"
+  },
+  {
+   "url": "https://www.city.shinjuku.lg.jp/kusei/about.html",
+   "title": "本ホームページについて",
+   "readOn": "2026-11-10",
+   "taken": "著作権・リンクの条件"
+  }
+ ],
+ "termsNote": "「新宿区公式ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は新宿区に帰属します。…本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。…著作権法上の「私的使用」や「引用」の範囲を越えて…使用を希望する場合は事前に問合せ担当課または区政情報課までお問い合わせください。」リンクは原則自由（PDF等への直接リンクは控えるよう求めている）。出典: https://www.city.shinjuku.lg.jp/kusei/about.html",
+ "schedule": {
+  "published": true,
+  "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00001.html",
+  "format": "html table",
+  "notes": "町名・丁目・番地（一部）ごとに資源の回収日・燃やすごみの収集日・金属・陶器・ガラスごみの収集日（1・3番目または2・4番目の曜日）・管轄（新/東/歌）を表で掲載し、地域別カレンダーPDF（/content/0001697xx.pdf）へリンク。「*」や「一部」の地域は清掃事務所に問い合わせ。冊子PDFにも同じ一覧あり。区公式アプリ「さんあ～る」でも収集日・分別辞典・AIチャットボット（令和8年4月〜）を提供。"
+ },
+ "categories": [
+  {
+   "id": "burnable",
+   "ja": "燃やすごみ",
+   "en": "Burnable waste",
+   "rulesJa": [
+    "ふたつきの容器か中身の見えるポリ袋に入れる",
+    "収集日の朝8時までに資源・ごみ集積所へ出す",
+    "生ごみは水切りする",
+    "食用油は紙や布にしみ込ませるか凝固剤で固める",
+    "植木の葉・枝は50cm程度にして2〜3束ずつ",
+    "紙おむつは汚物を取り除く",
+    "マッチは水に浸してから出す"
+   ],
+   "collectionJa": "週2回（祝日も曜日どおり、日曜・年末年始を除く）",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "examplesJa": "生ごみ、食用油、古紙回収に出せない紙類、植木の葉・枝、衣類、紙おむつ、他の素材が含まれるプラスチック製品、汚れている資源プラスチック、ゴム・皮革製品"
+  },
+  {
+   "id": "nonburnable",
+   "ja": "金属・陶器・ガラスごみ",
+   "en": "Metal, ceramic and glass waste",
+   "rulesJa": [
+    "ふたつきの容器か中身の見えるポリ袋に入れる",
+    "収集日の朝8時までに資源・ごみ集積所へ出す",
+    "割れたガラス・刃物・針・かみそりなどは厚紙などで包み「危険」と表示",
+    "使い捨てライターは使い切り、別袋に入れ「ライター」と表示",
+    "蛍光灯・電球は紙ケースに入れる",
+    "水銀体温計・水銀血圧計は中身の見える別袋に入れる",
+    "小型家電のコード類はしばる"
+   ],
+   "collectionJa": "月2回（その月の1・3番目または2・4番目の曜日。5番目の曜日は収集なし）",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "examplesJa": "アルミホイル・使い捨てカイロ・傘などの金属類、陶器・ガラス・割れたびん、小型家電製品、刃物、蛍光灯・電球、使い捨てライター、水銀体温計"
+  },
+  {
+   "id": "plastic",
+   "ja": "資源プラスチック（容器包装プラスチック＋製品プラスチック）",
+   "en": "Plastic resources",
+   "rulesJa": [
+    "令和6年4月から製品プラスチックも容器包装プラスチックと一緒に回収（それ以前は製品プラスチックは燃やすごみ）",
+    "中身を使い切り、汚れは洗うか拭き取る（汚れが落ちないものは燃やすごみ）",
+    "容器包装プラスチックと製品プラスチックを一緒にふたつきの容器か中身の見えるポリ袋に入れる",
+    "資源の回収日の朝8時までに資源・ごみ集積所へ出す",
+    "製品プラスチックは100%プラスチック（単一素材）でおおむね30cm角以内のもの",
+    "電池内蔵品・電気で動くもの・ライターは入れない"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "examplesJa": "プラマークの容器・包装（トレイ、卵パック、ボトル、チューブ、袋、発泡スチロール、ペットボトルのキャップとラベル）、定規、クリアファイル、ハンガー、食器、ストロー、歯ブラシ、おもちゃ、スポンジ（いずれも単一素材）"
+  },
+  {
+   "id": "pet-bottle",
+   "ja": "ペットボトル（資源）",
+   "en": "PET bottles",
+   "rulesJa": [
+    "PETマークのついた飲料・酒・みりん・しょうゆ・食酢・ノンオイルドレッシング等のボトル",
+    "キャップとラベルをはずし資源プラスチックへ",
+    "水で軽くすすいでつぶす",
+    "びん・缶などと分けて中身の見えるポリ袋に入れ（または回収容器へ）、資源の回収日の朝8時までに集積所へ",
+    "汚れのとれないもの・油の入っていたものは燃やすごみ"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収。びん・缶と同じ日に別袋で出す",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "examplesJa": "飲料・酒・しょうゆのペットボトル"
+  },
+  {
+   "id": "glass-bottle",
+   "ja": "びん（資源）",
+   "en": "Glass bottles",
+   "rulesJa": [
+    "飲料・食品用、化粧品、飲み薬用のびんが対象",
+    "ふたをはずし、水で軽くすすいで水を切る（プラスチックのふたは資源プラスチック）",
+    "缶・ペットボトルなどと分けて中身の見えるポリ袋に入れ（または回収容器へ）、資源の回収日の朝8時までに集積所へ",
+    "汚れのとれないびん・薬品（飲み薬以外）のびん・割れたびん・コップ・耐熱ガラスは金属・陶器・ガラスごみ"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収。缶・ペットボトルと同じ日に別袋で出す",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "examplesJa": "飲料・調味料のびん、化粧品のびん、飲み薬のびん"
+  },
+  {
+   "id": "can",
+   "ja": "缶（資源）",
+   "en": "Cans",
+   "rulesJa": [
+    "飲料・食品用のアルミ缶・スチール缶が対象（お菓子やお茶の缶も可）",
+    "軽くすすいで水を切る",
+    "びん・ペットボトルなどと分けて中身の見えるポリ袋に入れ（または回収容器へ）、資源の回収日の朝8時までに集積所へ",
+    "汚れのとれない缶、飲料・食品用以外の缶、一斗缶、塗料の缶は金属・陶器・ガラスごみ"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収。びん・ペットボトルと同じ日に別袋で出す",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "examplesJa": "飲料缶、缶詰の缶、お菓子・お茶の缶"
+  },
+  {
+   "id": "paper",
+   "ja": "古紙（資源）",
+   "en": "Paper (used paper)",
+   "rulesJa": [
+    "新聞は4つ折りにしてひもでしばる（チラシは新聞に挟む）",
+    "雑誌・本・雑がみはひもでしばる（小さい紙は紙袋に入れるか雑誌に挟む）",
+    "段ボールはたたんでひもでしばる",
+    "紙パックは洗って切り開き乾かし、紙パックだけまとめてしばる（アルミ付きは燃やすごみ）",
+    "資源の回収日の朝8時までに所定の集積所へ。雨天でも回収",
+    "できるだけ集団回収に出すよう区は依頼している"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "examplesJa": "新聞・チラシ、雑誌、本、ノート、封筒、食品等の箱、包装紙、コピー用紙、ティッシュの箱（ビニールを取る）、段ボール、紙パック"
+  },
+  {
+   "id": "spray-can",
+   "ja": "スプレー缶・カセットボンベ・乾電池等（資源）",
+   "en": "Spray cans, gas cartridges and batteries",
+   "rulesJa": [
+    "スプレー缶・カセットボンベは穴をあけない。使い切っていなくても回収（中身がある場合は「中身あり」と貼り紙）",
+    "プラスチックのキャップ・ノズルは資源プラスチックへ",
+    "「スプレー缶・カセットボンベ」「乾電池・ボタン電池」「小型充電式電池」をそれぞれ別の中身の見えるポリ袋に入れる",
+    "電池は端子部分をテープで絶縁する",
+    "資源の回収日の朝8時までに集積所へ",
+    "変形・膨張した小型充電式電池は集積所に出さず清掃事務所・清掃センターへ持参"
+   ],
+   "collectionJa": "資源の回収日（週1回）。古紙・資源プラスチック・びん・缶・ペットボトル・スプレー缶・カセットボンベ・乾電池等は同じ曜日に回収",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "examplesJa": "スプレー缶、カセットボンベ、マンガン・アルカリ乾電池、リチウム電池、ボタン電池、小型充電式電池、モバイルバッテリー（令和7年4月から）"
+  },
+  {
+   "id": "oversized",
+   "ja": "粗大ごみ",
+   "en": "Oversized waste",
+   "rulesJa": [
+    "一辺の長さがおおむね30cmを超える家具・寝具・電気製品（家電リサイクル品以外）・自転車など",
+    "事前申込制・有料：新宿区粗大ごみ受付センター（電話03-5304-8080 月〜土8時〜19時、またはインターネット24時間受付）",
+    "手数料分の新宿区「有料粗大ごみ処理券」（A券200円・B券300円）をコンビニ等で購入",
+    "処理券に氏名または受付番号と収集日を書いて貼り、収集日の朝8時までに申込時に決めた場所へ出す",
+    "解体しても粗大ごみとして出す"
+   ],
+   "collectionJa": "申込制（収集日は受付時に決定）",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00016.html",
+   "examplesJa": "家具、布団、自転車、スーツケース、電子レンジ、掃除機、扇風機"
+  },
+  {
+   "id": "small-appliance",
+   "ja": "使用済小型電子機器等（回収ボックス・窓口回収）",
+   "en": "Small electronics (collection boxes)",
+   "rulesJa": [
+    "区役所本庁舎1階・各特別出張所・エコギャラリー新宿の専用回収ボックス、または清掃事務所・リサイクル活動センター等の窓口へ持参",
+    "対象：携帯電話、デジタルカメラ、ポータブルビデオカメラ、携帯音楽プレーヤー、携帯ゲーム機、ポータブルカーナビ、電子辞書、電卓、附属品（リモコン・ACアダプター・ケーブル等）",
+    "取り外せる電池は外し、個人情報は自分で消去する",
+    "対象外のものは金属・陶器・ガラスごみまたは粗大ごみ"
+   ],
+   "collectionJa": "随時（施設の開庁・開館時間）",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00004.html",
+   "examplesJa": "携帯電話、スマートフォン、デジタルカメラ、電子辞書"
+  },
+  {
+   "id": "appliance-recycling",
+   "ja": "家電4品目（家電リサイクル法）",
+   "en": "Appliance recycling (4 items)",
+   "rulesJa": [
+    "エアコン、テレビ、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機は区では収集しない（粗大ごみ不可）",
+    "買い替え時は購入する店、処分のみは購入した店に引き渡す",
+    "引き渡せない場合は家電リサイクル受付センター（0570-08-7200）へ申し込む",
+    "自分で運べる場合はリサイクル券を郵便局で購入し指定引取場所へ持ち込む",
+    "リサイクル料金と収集運搬料金がかかる"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00019.html",
+   "examplesJa": "エアコン、テレビ、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機"
+  },
+  {
+   "id": "pc-recycling",
+   "ja": "家庭用パソコン（区では収集しない）",
+   "en": "PC recycling",
+   "rulesJa": [
+    "デスクトップ本体・ノート・ディスプレイ・一体型は区では収集しない",
+    "メーカー回収（パソコン3R推進協会）、または区の協力事業者リネットジャパンリサイクルの宅配回収を利用（パソコン本体を含む場合1箱無料）",
+    "データは自分で消去する"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00021.html",
+   "examplesJa": "ノートパソコン、デスクトップパソコン、液晶ディスプレイ"
+  },
+  {
+   "id": "store-takeback",
+   "ja": "販売店・薬局等への返却",
+   "en": "Store / pharmacy take-back",
+   "rulesJa": [
+    "在宅医療の注射針・針付き注射器は購入した薬局（使用済み注射針回収薬局）へ戻す。集積所には出せない"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00022.html",
+   "examplesJa": "在宅医療の注射針"
+  },
+  {
+   "id": "not-collected",
+   "ja": "区では収集できないもの",
+   "en": "Not collected by the ward",
+   "rulesJa": [
+    "購入店・メーカーに引き取りを依頼するか専門業者に依頼する",
+    "専門業者がわからない場合は管轄の清掃事務所・清掃センター（新宿清掃事務所 03-3950-2923 ほか）に問い合わせる"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000111.html",
+   "examplesJa": "カセット式以外のガスボンベ、石油類、塗料、薬品類、自動車・バイク用バッテリー、消火器、タイヤ、ピアノ、耐火金庫、土・砂・石・ブロック、自動車、オートバイ"
+  }
+ ],
+ "items": {
+  "food-scraps": {
+   "category": "burnable",
+   "prepJa": [
+    "水切りをする"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "生ごみ：燃やすごみ"
+  },
+  "eggshells": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "これは燃やすごみ：貝殻、卵の殻、魚の骨、紙コップ、ちり紙、写真、感熱紙…"
+  },
+  "coffee-grounds": {
+   "category": "burnable",
+   "prepJa": [
+    "水切りをする"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：生ごみ／生ごみは、水きりをして出してください。"
+  },
+  "tea-bags": {
+   "category": "burnable",
+   "prepJa": [
+    "水切りをする"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：生ごみ、紙くず"
+  },
+  "used-cooking-oil": {
+   "category": "burnable",
+   "prepJa": [
+    "紙や布にしみ込ませるか、凝固剤で固める"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "油（食用）：燃やすごみ／紙や布に染み込ませる。または、凝固剤で固めてください。"
+  },
+  "disposable-chopsticks": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "木材：各辺の長さが30cm以下の場合は、燃やすごみです。"
+  },
+  "toothpicks-skewers": {
+   "category": "burnable",
+   "prepJa": [
+    "先のとがったものは紙に包む"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "木材：各辺の長さが30cm以下の場合は、燃やすごみです。"
+  },
+  "paper-cups": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "紙コップ：燃やすごみ（古紙の出し方：ワックス加工がされており、紙が水分を吸収せず分離できない）"
+  },
+  "paper-plates": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "ruleQuoteJa": "資源として回収できないもの：防水加工された紙……紙コップなど／食品の汚れが付いた紙 → 燃やすごみにお出しください。"
+  },
+  "plastic-food-tray": {
+   "category": "plastic",
+   "prepJa": [
+    "軽く水で洗って乾かす"
+   ],
+   "noteJa": "白色トレイは区施設やお店の回収ボックスにも出せる。汚れが落ちないものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00030.html",
+   "ruleQuoteJa": "容器包装プラスチックの例：カップ容器、卵パック、トレイ…／白色トレイ：資源プラスチック"
+  },
+  "plastic-egg-carton": {
+   "category": "plastic",
+   "prepJa": [
+    "軽くすすぐ"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "パック（プラ製たまごパック）：資源プラスチック"
+  },
+  "plastic-bento-container": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、洗うか拭いて汚れを落とす"
+   ],
+   "noteJa": "汚れが落ちないものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "容器：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。プラスチック素材でも汚れがとれないものは「燃やすごみ」でお出しください。"
+  },
+  "cup-noodle": {
+   "parts": {
+    "cup (plastic or paper)": "plastic",
+    "lid (paper/aluminium)": "burnable"
+   },
+   "prepJa": [
+    "中身を出しすすぐ"
+   ],
+   "noteJa": "カップが紙製または汚れが取れない場合は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "カップ麺のカップ：プラスチック製は「資源プラスチック」、紙製や汚れの取れないものは「燃やすごみ」です。／冊子：内側が樹脂・アルミコーティングされている紙（カップ麺のふた等）は燃やすごみ"
+  },
+  "instant-noodle-wrapper": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れが取れないものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "包装（食料品の包装、果物ネット、おしぼりの包装フィルム等）：資源プラスチック"
+  },
+  "snack-bag": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れの取れないものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "お菓子の袋（プラスチック製）：資源プラスチック／汚れの取れないものは、燃やすごみです。"
+  },
+  "plastic-shopping-bag": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ビニール袋：資源プラスチック"
+  },
+  "plastic-wrap": {
+   "category": "plastic",
+   "prepJa": [
+    "汚れを落とす"
+   ],
+   "noteJa": "汚れが落ちないものは燃やすごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチック：100%プラスチック（単一素材）だけでできていて、大きさがおおむね30cm角以内のもの。／回収できないもの：内容物が残っている容器、汚れが著しいもの → 燃やすごみ"
+  },
+  "aluminium-foil": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "アルミ箔、アルミホイル：金属・陶器・ガラスごみ"
+  },
+  "yogurt-cup": {
+   "parts": {
+    "cup": "plastic",
+    "lid": "burnable"
+   },
+   "prepJa": [
+    "中身を使い切り、すすぐ"
+   ],
+   "noteJa": "ふたが紙・アルミ複合なら燃やすごみ、プラスチック製なら資源プラスチック。カップが紙製なら燃やすごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00030.html",
+   "ruleQuoteJa": "容器包装プラスチックの例：カップ容器…／冊子：内側が樹脂・アルミコーティングされている紙……アイスクリームのカップ、カップ麺のふた → 燃やすごみ"
+  },
+  "mayonnaise-bottle": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、できるだけ汚れを落とす"
+   ],
+   "noteJa": "汚れがとれない場合は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "チューブ（歯磨きやマヨネーズ等）：資源プラスチック／汚れがとれない場合は、燃やすごみです。"
+  },
+  "pet-bottle": {
+   "parts": {
+    "bottle": "pet-bottle",
+    "cap": "plastic",
+    "label": "plastic"
+   },
+   "prepJa": [
+    "キャップとラベルをはずす",
+    "水で軽くすすいでつぶす",
+    "中身の見えるポリ袋に入れる（ほかの資源と別袋）"
+   ],
+   "noteJa": "汚れのとれないもの、油の入っていたものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "ペットボトル：びん・缶・ペットボトル／ペットボトルのキャップとラベルは容器包装プラスチック（資源プラスチック）"
+  },
+  "pet-bottle-cap": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ペットボトルのふた：資源プラスチック"
+  },
+  "non-pet-plastic-bottle": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、洗うか拭いて汚れを落とす"
+   ],
+   "noteJa": "油などの汚れが落ちない場合は燃やすごみ。PETマーク付きでも油の入っていたものは燃やすごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "容器包装プラスチック：プラマークが目印（ボトル類）／回収できないもの：内容物が残っている容器、汚れが著しいもの → 燃やすごみの日に出してください。"
+  },
+  "glass-bottle": {
+   "parts": {
+    "bottle": "glass-bottle",
+    "cap": "nonburnable"
+   },
+   "prepJa": [
+    "ふたをはずす",
+    "水で軽くすすいで水を切る",
+    "中身の見えるポリ袋に入れる（ほかの資源と別袋）"
+   ],
+   "noteJa": "プラスチック製のふたは資源プラスチック。汚れのとれないびんは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "びん（飲料・食品用…）：びん・缶・ペットボトル／びん…のふた（キャップ）は、プラスチック製のものは資源になります。／一升瓶のふた（上が金属、下がプラスチック製）：金属・陶器・ガラスごみ"
+  },
+  "wine-bottle": {
+   "parts": {
+    "bottle": "glass-bottle",
+    "cork": "burnable"
+   },
+   "prepJa": [
+    "水で軽くすすいで水を切る"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "びん（飲料・食品用）：びん・缶・ペットボトル／コルク：燃やすごみ"
+  },
+  "jam-jar": {
+   "parts": {
+    "jar": "glass-bottle",
+    "lid": "nonburnable"
+   },
+   "prepJa": [
+    "ふたをはずす",
+    "中を洗って汚れを落とす"
+   ],
+   "noteJa": "汚れが落ちないびんは金属・陶器・ガラスごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "びん（飲料・食品用）：びん・缶・ペットボトル／金属・陶器・ガラスごみ：金属類"
+  },
+  "cosmetics-glass-bottle": {
+   "category": "glass-bottle",
+   "prepJa": [
+    "中を洗う"
+   ],
+   "noteJa": "汚れがとれないものは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "びん（飲料・食品用、飲み薬用、化粧品等のびん）：びん・缶・ペットボトル／汚れがとれないびん・薬品のびん・割れたびん等は、金属・陶器・ガラスごみ"
+  },
+  "medicine-glass-bottle": {
+   "category": "glass-bottle",
+   "prepJa": [
+    "水で軽くすすぐ"
+   ],
+   "noteJa": "飲み薬以外の薬品のびんは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "薬のびん（飲み薬用）：びん・缶・ペットボトル"
+  },
+  "aluminium-can": {
+   "category": "can",
+   "prepJa": [
+    "軽くすすいで水を切る"
+   ],
+   "noteJa": "汚れている場合は金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "アルミ缶（飲料用・食品用）：びん・缶・ペットボトル"
+  },
+  "steel-can": {
+   "category": "can",
+   "prepJa": [
+    "軽くすすいで水を切る"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "缶（飲料用・食品用のアルミ、スチール缶）：びん・缶・ペットボトル"
+  },
+  "food-can": {
+   "category": "can",
+   "prepJa": [
+    "中身を取り除き、軽くすすぐ"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "缶（飲料用・食品用のアルミ、スチール缶）：びん・缶・ペットボトル"
+  },
+  "cookie-tin": {
+   "category": "can",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "ruleQuoteJa": "冊子（缶）：お菓子やお茶の缶なども お出しください。"
+  },
+  "spray-can": {
+   "category": "spray-can",
+   "prepJa": [
+    "なるべく中身を使い切る（使い切っていなくても回収。「中身あり」と貼り紙）",
+    "穴をあけない",
+    "プラスチックのキャップ・ノズルははずして資源プラスチックへ"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スプレー缶：スプレー缶・カセットボンベ・乾電池"
+  },
+  "cassette-gas-can": {
+   "category": "spray-can",
+   "prepJa": [
+    "なるべく中身を使い切る",
+    "穴をあけない"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "カセットボンベ：スプレー缶・カセットボンベ・乾電池／なるべく中身を使い切ってお出しください。（使い切っていなくても回収します。）"
+  },
+  "metal-bottle-cap": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "金属・陶器・ガラスごみになるもの：金属類／一升瓶のふた（上が金属、下がプラスチック製）：金属・陶器・ガラスごみ"
+  },
+  "milk-carton": {
+   "category": "paper",
+   "prepJa": [
+    "中を軽く水で洗う",
+    "切り開いて乾かす",
+    "紙パックだけまとめてひもでしばる"
+   ],
+   "noteJa": "区施設やスーパーの回収ボックスにも出せる。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "パック（紙パック、牛乳パック…）：古紙"
+  },
+  "aluminium-lined-carton": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "紙パック（内側がアルミコーティングされているもの）：燃やすごみに出してください。"
+  },
+  "cardboard": {
+   "category": "paper",
+   "prepJa": [
+    "たたんでひもでしばる"
+   ],
+   "noteJa": "ろうびき・アルミ加工・油がしみこんだものは回収できない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ダンボール：古紙"
+  },
+  "pizza-box": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "油のしみこんだ紙類（段ボール、宅配ピザの箱など）：燃やすごみに出してください。"
+  },
+  "newspaper": {
+   "category": "paper",
+   "prepJa": [
+    "4つ折りにし、チラシは新聞に挟む",
+    "ひもでしばる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "新聞・チラシ：古紙／4つ折りにし、チラシは新聞に挟んでください。"
+  },
+  "magazines": {
+   "category": "paper",
+   "prepJa": [
+    "ばらけないようにひもでしばる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "雑誌・雑がみ：まとめて、バラけないように、ひもでしばってください。"
+  },
+  "books": {
+   "category": "paper",
+   "prepJa": [
+    "ひもでしばる"
+   ],
+   "noteJa": "ビニールコートの表紙など水分を吸収しない紙は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "本（ハードカバー）：古紙／水分を吸収しない紙を含んでいる場合は、燃やすごみ"
+  },
+  "paper-bag": {
+   "category": "paper",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "紙袋：古紙"
+  },
+  "cereal-box": {
+   "parts": {
+    "box": "paper",
+    "film window": "plastic"
+   },
+   "prepJa": [
+    "フィルムやビニール部分を取り除く",
+    "たたんで雑誌に挟むかひもでしばる"
+   ],
+   "noteJa": "汚れの取れない箱は燃やすごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "お菓子の箱（紙製）：古紙／ティシュペーパーの箱：古紙（必ずビニールを剥がしてお出しください）"
+  },
+  "toilet-paper-core": {
+   "category": "paper",
+   "prepJa": [
+    "紙袋に入れるか雑誌に挟む"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "小さいもの、切れはしなどの紙（雑がみ）は、紙袋に入れるか雑誌の間にはさんで出してください。"
+  },
+  "envelope": {
+   "parts": {
+    "envelope": "paper",
+    "plastic window": "plastic"
+   },
+   "prepJa": [
+    "窓のフィルムを外す"
+   ],
+   "noteJa": "窓付きのまま出す場合は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "封筒（窓付き、緩衝材付き等複合素材）：燃やすごみ／セロファン、緩衝材等、紙以外の素材を外した封筒は、古紙（資源）として回収しています。"
+  },
+  "wrapping-paper": {
+   "category": "paper",
+   "prepJa": [],
+   "noteJa": "防水加工・臭いのついた包装紙は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "包装紙：古紙"
+  },
+  "receipt": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "これは燃やすごみ：…感熱紙…"
+  },
+  "shredded-paper": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "シュレッダーくず：燃やすごみ（紙の繊維が寸断されるため、再生に向かない）"
+  },
+  "photographs": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "これは燃やすごみ：…写真…"
+  },
+  "used-tissue": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "これは燃やすごみ：…ちり紙…"
+  },
+  "paper-towel": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：紙くず、古紙回収に出せない紙類"
+  },
+  "dirty-paper": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "油紙、油のしみこんだ紙類：燃やすごみに出してください。"
+  },
+  "broken-glass": {
+   "category": "nonburnable",
+   "prepJa": [
+    "厚紙などで包み「危険」と表示する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "陶器・ガラス・割れたびん／割れたガラス・びん・陶磁器…は、厚紙などで包み、「危険」と表示"
+  },
+  "drinking-glass": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "出せないもの（金属・陶器・ガラスごみ）：板ガラス、コップ類、耐熱ガラス、陶器類"
+  },
+  "ceramic-dish": {
+   "category": "nonburnable",
+   "prepJa": [
+    "割れたものは厚紙などで包み「危険」と表示"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "食器：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "heat-resistant-glass": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "出せないもの（金属・陶器・ガラスごみ）：…耐熱ガラス、陶器類"
+  },
+  "mirror": {
+   "category": "nonburnable",
+   "prepJa": [
+    "割れたものは厚紙などで包み「危険」と表示"
+   ],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "鏡：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "light-bulb": {
+   "category": "nonburnable",
+   "prepJa": [
+    "購入時の紙ケースに入れるか新聞紙で包む"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "電球：金属・陶器・ガラスごみ／紙ケースに入れてください。"
+  },
+  "led-bulb": {
+   "category": "nonburnable",
+   "prepJa": [
+    "購入時の紙ケースに入れるか新聞紙で包む"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "金属・陶器・ガラスごみになるもの：蛍光灯・電球／小型家電製品"
+  },
+  "fluorescent-tube": {
+   "category": "nonburnable",
+   "prepJa": [
+    "購入時の紙ケースに入れるか新聞紙で包む"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "蛍光管・蛍光灯：金属・陶器・ガラスごみ／紙ケースに入れてください。"
+  },
+  "frying-pan": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "分別辞典では鍋・中華鍋は一辺30cm超で粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "フライパン：金属・陶器・ガラスごみ"
+  },
+  "pot": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "鍋：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "kettle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "やかん：金属・陶器・ガラスごみ"
+  },
+  "kitchen-knife": {
+   "category": "nonburnable",
+   "prepJa": [
+    "厚紙などで包み「危険」と表示する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "包丁：金属・陶器・ガラスごみ／厚紙などで包み「危険」と表示してください。"
+  },
+  "scissors": {
+   "category": "nonburnable",
+   "prepJa": [
+    "刃を厚紙などで包み「危険」と表示する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "はさみ：金属・陶器・ガラスごみ"
+  },
+  "metal-cutlery": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スプーン：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "disposable-cutlery": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れが落ちないものは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スプーン：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "plastic-straw": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチックの例：定規、クリアファイル、ハンガー、洗面器、食器、ストロー…"
+  },
+  "wire-hanger": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ハンガー：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "plastic-hanger": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "金属フックなど他素材付きは燃やすごみまたは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ハンガー：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "umbrella": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "傘：金属・陶器・ガラスごみ／ビニール傘：金属・陶器・ガラスごみ"
+  },
+  "razor": {
+   "category": "nonburnable",
+   "prepJa": [
+    "厚紙などで包み「危険」と表示する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "髭剃り：金属・陶器・ガラスごみ／厚紙などで包み「危険」と表示してください。"
+  },
+  "nails-screws": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "釘：金属・陶器・ガラスごみ"
+  },
+  "dry-cell-battery": {
+   "category": "spray-can",
+   "prepJa": [
+    "端子にテープを貼って絶縁する",
+    "乾電池だけを中身の見える別袋に入れる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "乾電池等（マンガン乾電池、アルカリ乾電池…）：スプレー缶・カセットボンベ・乾電池／電極にテープを貼って絶縁してください。"
+  },
+  "button-battery": {
+   "category": "spray-can",
+   "prepJa": [
+    "テープを貼って絶縁する",
+    "乾電池・ボタン電池の袋に入れる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00014.html",
+   "ruleQuoteJa": "乾電池等（…コイン電池、ボタン電池…）：スプレー缶・カセットボンベ・乾電池"
+  },
+  "rechargeable-battery": {
+   "category": "spray-can",
+   "prepJa": [
+    "端子にテープを貼って絶縁する",
+    "小型充電式電池だけを中身の見える別袋に入れる",
+    "なるべく電力を使い切る"
+   ],
+   "noteJa": "令和7年4月から資源の日に回収。変形・膨張したものは清掃事務所・清掃センターへ持参。JBRC協力店にも出せる。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_002052.html",
+   "ruleQuoteJa": "小型充電式電池：スプレー缶・カセットボンベ・乾電池／端子部分やケーブルの差し込み口をテープで絶縁し、小型充電式電池単体をお出しください。"
+  },
+  "mobile-battery": {
+   "category": "spray-can",
+   "prepJa": [
+    "分解しない",
+    "端子・差し込み口をテープで絶縁する",
+    "小型充電式電池の別袋に入れる"
+   ],
+   "noteJa": "変形・膨張したものは集積所に出さず清掃事務所・清掃センターへ。資源プラスチックに混ぜない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_002052.html",
+   "ruleQuoteJa": "携帯電話・スマートフォンの充電を主機能とする…「モバイルバッテリー」も資源の日に回収します。"
+  },
+  "disposable-lighter": {
+   "category": "nonburnable",
+   "prepJa": [
+    "必ず使い切る",
+    "別袋に入れ「ライター」と表示する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "使い捨てライター（必ず使い切り、別袋に入れ「ライター」と表示してください）"
+  },
+  "matches": {
+   "category": "burnable",
+   "prepJa": [
+    "水に浸してから出す"
+   ],
+   "noteJa": "大量の場合は清掃事務所・清掃センターに相談。古紙に混ぜない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "マッチは、火災の原因となるため、水に浸してから出してください。"
+  },
+  "mercury-thermometer": {
+   "category": "nonburnable",
+   "prepJa": [
+    "中身の見える別袋に入れ「体温計」「血圧計」と表示"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "体温計（水銀式）：金属・陶器・ガラスごみ／別袋に入れ「体温計」と表示してください。"
+  },
+  "paint": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "専門事業者を紹介（清掃事務所・清掃センターへ問い合わせ）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ペンキ：収集不可／専門事業者をご紹介します。"
+  },
+  "medicine": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "薬品類（家庭用医薬品以外の化学薬品）は区では収集しない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "薬：燃やすごみ"
+  },
+  "insulin-needle": {
+   "category": "store-takeback",
+   "prepJa": [],
+   "noteJa": "集積所には出せない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00022.html",
+   "ruleQuoteJa": "注射針は「資源・ごみ集積所」に出すことができません。…注射針を購入した「使用済み注射針回収薬局」に持ち込みます。"
+  },
+  "mobile-phone": {
+   "category": "small-appliance",
+   "prepJa": [
+    "個人情報を消去する"
+   ],
+   "noteJa": "集積所には出せない（分別辞典では「収集不可」）。携帯電話事業者のショップでも無料回収。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スマートフォン：収集不可／使用済小型充電式電池等として、区施設の窓口または特別出張所に設置した専用回収ボックスで回収しています。"
+  },
+  "laptop": {
+   "category": "pc-recycling",
+   "prepJa": [
+    "データを消去する"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ノートパソコン：収集不可／リサイクルが義務付けられています。"
+  },
+  "computer-monitor": {
+   "category": "pc-recycling",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ディスプレイ・モニター：収集不可／リサイクルが義務付けられています。"
+  },
+  "hair-dryer": {
+   "category": "nonburnable",
+   "prepJa": [
+    "コードをしばる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ドライヤー：金属・陶器・ガラスごみ"
+  },
+  "electric-shaver": {
+   "category": "nonburnable",
+   "prepJa": [
+    "取り外せる充電式電池は外して資源の日へ"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "シェイバー（髭剃り）：金属・陶器・ガラスごみ"
+  },
+  "electric-toothbrush": {
+   "category": "nonburnable",
+   "prepJa": [
+    "取り外せる電池は外して資源の日へ（取り外せない場合はそのまま）"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/kankyo/seiso01_002052.html",
+   "ruleQuoteJa": "小型家電に内蔵されている小型充電式電池は、取り外して出してください。取り外すことができない場合は、資源ではなく、金属・陶器・ガラスごみに出してください。"
+  },
+  "iron": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "アイロン：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "toaster": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ（オーブントースター400円）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "オーブントースター：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。／トースター：粗大ごみ／各辺の長さが30cm以下の場合は、金属・陶器・ガラスごみです。"
+  },
+  "rice-cooker": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "炊飯器：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "electric-kettle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "電気ケトル：金属・陶器・ガラスごみ"
+  },
+  "microwave": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料900円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "電子レンジ：粗大ごみ"
+  },
+  "vacuum-cleaner": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。コードレス掃除機の充電式電池は外して資源の日へ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "掃除機：粗大ごみ"
+  },
+  "earphones": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "ワイヤレス（電池内蔵）も金属・陶器・ガラスごみ。資源プラスチックや古紙に混ぜない。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html",
+   "ruleQuoteJa": "小型充電式電池内蔵製品（ワイヤレスイヤホンやハンディファン等）：金属・陶器・ガラスごみ"
+  },
+  "game-console": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。携帯ゲーム機は区施設の小型電子機器回収ボックスにも出せる。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ゲーム機：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "digital-camera": {
+   "category": "nonburnable",
+   "prepJa": [
+    "電池を外す",
+    "記録媒体を外す"
+   ],
+   "noteJa": "区施設の小型電子機器回収ボックス・窓口にも出せる。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "デジタルカメラ：金属・陶器・ガラスごみ／使用済小型充電式電池等として、区施設の窓口または特別出張所に設置した専用回収ボックスで回収しています。"
+  },
+  "electric-cord": {
+   "category": "nonburnable",
+   "prepJa": [
+    "しばるか束ねる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "電気コード：金属・陶器・ガラスごみ／縛るか、束ねてください。"
+  },
+  "remote-control": {
+   "category": "nonburnable",
+   "prepJa": [
+    "乾電池を外して資源の日へ"
+   ],
+   "noteJa": "小型電子機器の附属品として回収ボックスにも出せる。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "金属・陶器・ガラスごみになるもの：小型家電製品／使用済小型電子機器等 回収品目：リモコン、ＡＣアダプター、ケーブル等の附属品"
+  },
+  "heated-tobacco-device": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "資源プラスチックに絶対に混ぜない（発火の原因）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "小型充電式電池内蔵製品（充電器、電子タバコなど）：金属・陶器・ガラスごみ"
+  },
+  "electric-fan": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "扇風機：粗大ごみ"
+  },
+  "heater": {
+   "category": "oversized",
+   "prepJa": [
+    "電池を除く"
+   ],
+   "noteJa": "電気ストーブ・電気ファンヒーターは手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ストーブ：粗大ごみ／灯油と電池を除いてください。"
+  },
+  "kerosene-heater": {
+   "category": "oversized",
+   "prepJa": [
+    "灯油を抜く",
+    "電池を除く"
+   ],
+   "noteJa": "手数料400円（10kg以下）・900円（10kg超）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ストーブ：粗大ごみ／灯油と電池を除いてください。"
+  },
+  "tv": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "テレビ：収集不可／リサイクルが義務付けられています。"
+  },
+  "refrigerator": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "冷蔵庫・冷凍庫：収集不可／リサイクルが義務付けられています。"
+  },
+  "washing-machine": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "洗濯機・衣類乾燥機：収集不可／リサイクルが義務付けられています。"
+  },
+  "air-conditioner": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "エアコン：収集不可／リサイクルが義務付けられています。"
+  },
+  "futon": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "掛・敷布団 400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "布団：粗大ごみ"
+  },
+  "mattress": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "ベッドマット1,300円、マットレス（10kg以下）400円（電話申込のみ）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "マットレス：粗大ごみ"
+  },
+  "bed-frame": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "シングル1,300円、ダブル2,300円（ベッドマット除く）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ベッド：粗大ごみ"
+  },
+  "chair": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円（ソファ除く）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "椅子（座椅子・応接用椅子・長椅子等）：粗大ごみ"
+  },
+  "desk": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "袖無し900円、片袖・学習机1,300円、両袖3,200円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "机：粗大ごみ"
+  },
+  "bookshelf": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "箱物家具として400〜3,200円（最長辺と2番目に長い辺の合計で決まる）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "本棚：粗大ごみ"
+  },
+  "sofa": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "1人掛け900円、2人掛け1,300円、3人掛け2,300円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ソファー：粗大ごみ"
+  },
+  "carpet": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "敷物1畳以下400円、1畳超900円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "じゅうたん：粗大ごみ"
+  },
+  "bicycle": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "16インチ未満400円、16インチ以上900円、電動アシスト1,300円（バッテリーを外す）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_05_00001.html",
+   "ruleQuoteJa": "粗大ごみになるもの：一辺の長さがおおむね30ｃｍを超える家具、寝具、電気製品…、自転車など／自転車（16インチ以上）900円"
+  },
+  "suitcase": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スーツケース：粗大ごみ"
+  },
+  "plastic-storage-case": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "衣装箱（衣装ケース）400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "衣装ケース：粗大ごみ"
+  },
+  "ironing-board": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "アイロン台：粗大ごみ"
+  },
+  "curtains": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "集団回収で古布として出せる場合がある。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "カーテン：燃やすごみ"
+  },
+  "toothbrush": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "電動歯ブラシは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "歯ブラシ：資源プラスチック"
+  },
+  "toothpaste-tube": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れがとれない場合は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "チューブ（歯磨きやマヨネーズ等）：資源プラスチック／汚れがとれない場合は、燃やすごみです。"
+  },
+  "shampoo-bottle": {
+   "parts": {
+    "bottle": "plastic",
+    "pump": "burnable"
+   },
+   "prepJa": [
+    "中身を使い切り、すすぐ"
+   ],
+   "noteJa": "ポンプは金属ばねなど他素材を含むため資源プラスチックに出せない（燃やすごみ）。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "容器包装プラスチック：ボトル類／回収できないもの：金属などのプラスチック以外の素材が含まれているもの → 燃やすごみの日もしくは金属・陶器・ガラスごみの日に出してください。"
+  },
+  "refill-pouch": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、すすぐ"
+   ],
+   "noteJa": "汚れが落ちないものは燃やすごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "ruleQuoteJa": "容器包装プラスチック：ポリ袋・フィルム…（プラマークのついているもの）"
+  },
+  "bucket": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。金属製は金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "バケツ：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。なお、一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "plastic-toy": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "電池や金属を含むものは金属・陶器・ガラスごみ、その他素材混じりは燃やすごみ。一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "おもちゃ：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "stuffed-toy": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ぬいぐるみ：燃やすごみ"
+  },
+  "ballpoint-pen": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "100%プラスチックのみなら資源プラスチック、金属製は金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ボールペン：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "clear-file": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチックの例：定規、クリアファイル…"
+  },
+  "cd-dvd": {
+   "parts": {
+    "disc": "burnable",
+    "case": "plastic"
+   },
+   "prepJa": [],
+   "noteJa": "分別辞典ではCDケース・ブルーレイのケースは資源プラスチック、DVDケースは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "CD/CD－R/CDーRW：燃やすごみ／DVD：燃やすごみ／CDケース：資源プラスチック／DVDケース：燃やすごみ"
+  },
+  "video-tape": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ビデオテープ：燃やすごみ／カセットテープ：燃やすごみ"
+  },
+  "rubber-gloves": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：ゴム・皮革製品"
+  },
+  "sponge": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れの取れない場合は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "スポンジ：資源プラスチック"
+  },
+  "cutting-board": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "厚さ5mm未満で100%プラスチックのものは資源プラスチック。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "まな板：厚さ5mm未満で100％プラスチック素材のものは「資源プラスチック」、そのほかは「燃やすごみ」です。"
+  },
+  "styrofoam-packaging": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れがとれない場合は燃やすごみ。一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "発泡スチロール：資源プラスチック"
+  },
+  "bubble-wrap": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "緩衝材：100％プラスチック素材のものは「資源プラスチック」、そのほかは「燃やすごみ」です。"
+  },
+  "plastic-cosmetics-container": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、拭くか洗う"
+   ],
+   "noteJa": "汚れがとれないもの・他素材付きは燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "容器：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。プラスチック素材でも汚れがとれないものは「燃やすごみ」でお出しください。"
+  },
+  "plastic-plant-pot": {
+   "category": "plastic",
+   "prepJa": [
+    "土を取り除く"
+   ],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "植木鉢：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。なお、一辺の長さが30cmを超えるものは粗大ゴミです。"
+  },
+  "ceramic-plant-pot": {
+   "category": "nonburnable",
+   "prepJa": [
+    "土を取り除く"
+   ],
+   "noteJa": "一辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "植木鉢：100％プラスチック素材のものは「資源プラスチック」、金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "soil": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "専門事業者を紹介（清掃事務所・清掃センターへ問い合わせ）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "土：収集不可／専門事業者をご紹介します。（砂・石も同じ）"
+  },
+  "clothes": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "集団回収・リサイクル活動センターで古布として出せる場合がある。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：衣類、紙おむつ"
+  },
+  "shoes": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "靴：燃やすごみ"
+  },
+  "bag": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超（ボストンバッグ等）は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "かばん（布製・革製・ビニール製）：燃やすごみ"
+  },
+  "belt": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ベルト：燃やすごみ"
+  },
+  "towels": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "これは燃やすごみ：…布製品…"
+  },
+  "diapers": {
+   "category": "burnable",
+   "prepJa": [
+    "汚物を取り除く"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "おむつ：燃やすごみ／汚物は、取り除いてお出しください。"
+  },
+  "sanitary-pads": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "生理用品、混紡衣類、化学雑巾、たばこの吸殻などは、複合素材でできていますが、可燃ごみになります。"
+  },
+  "cat-litter": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の資料に猫砂・ペットシーツの明記なし。鉱物系の猫砂は管轄の清掃事務所に確認。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：紙くず…衣類、紙おむつ（紙おむつは、汚物を取り除いてから出してください）"
+  },
+  "pet-waste": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の資料にペットのふんの明記なし。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：生ごみ…紙おむつ"
+  },
+  "cigarette-butts": {
+   "category": "burnable",
+   "prepJa": [
+    "火が消えていることを確かめる"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "生理用品、混紡衣類、化学雑巾、たばこの吸殻などは…可燃ごみになります。"
+  },
+  "wood-scraps": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "各辺30cm超は粗大ごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "木材：粗大ごみ／各辺の長さが30cm以下の場合は、燃やすごみです。"
+  },
+  "branches": {
+   "category": "burnable",
+   "prepJa": [
+    "50cm以下にして2〜3束ずつ"
+   ],
+   "noteJa": "多量の場合は有料。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "枝（せん定後の枝）：燃やすごみ／50cm以下にしてください。多量の場合は有料です。"
+  },
+  "fallen-leaves": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "落ち葉：燃やすごみ"
+  },
+  "cut-flowers": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "草花：燃やすごみ"
+  },
+  "candle": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ろうそく：燃やすごみ"
+  },
+  "face-mask": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "ruleQuoteJa": "資源として回収できない紙：…不織布 → 燃やすごみにお出しください。"
+  },
+  "hand-warmer": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html",
+   "ruleQuoteJa": "金属類（アルミホイル・使い捨てカイロ、傘など）"
+  },
+  "desiccant": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "乾燥剤：燃やすごみ／保冷剤：燃やすごみ"
+  },
+  "wet-wipes": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html",
+   "ruleQuoteJa": "資源として回収できない紙：…不織布 → 燃やすごみにお出しください。"
+  },
+  "cotton-swab": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：紙くず…他の素材が含まれるプラスチック製品"
+  },
+  "rubber-band": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "輪ゴム：燃やすごみ"
+  },
+  "leather-goods": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "金属部分が多いものは金属・陶器・ガラスごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html",
+   "ruleQuoteJa": "燃やすごみになるもの：ゴム・皮革製品"
+  },
+  "fire-extinguisher": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "専門事業者を紹介（清掃事務所・清掃センターへ問い合わせ）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "消火器：収集不可／専門事業者をご紹介します。"
+  },
+  "car-tire": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "購入店または専門業者へ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "タイヤ：収集不可／専門事業者をご紹介します。"
+  },
+  "car-battery": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "購入店または専門業者へ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "バッテリー（自動車・オートバイ）：収集不可／専門事業者をご紹介します。"
+  },
+  "motorcycle": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "購入店、または二輪車リサイクルコールセンター（050-3000-0727）へ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000109.html",
+   "ruleQuoteJa": "オートバイ：収集不可／二輪車リサイクルコールセンターへお問い合わせください。"
+  },
+  "piano": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "専門事業者を紹介（清掃事務所・清掃センターへ問い合わせ）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ピアノ：収集不可／専門事業者をご紹介します。"
+  },
+  "gas-cylinder": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "販売店・専門業者へ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000111.html",
+   "ruleQuoteJa": "有害性・危険性・著しい悪臭のあるもの：カセット式以外のガスボンベ…"
+  },
+  "umbrella-stand": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "傘立て：粗大ごみ"
+  },
+  "cushion": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "一辺30cm超は粗大ごみ（座布団・クッション等5枚まで一束400円）。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "クッション：燃やすごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  },
+  "plastic-file-box": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "100%プラスチックでおおむね30cm角以内のもの。超える場合は粗大ごみ。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチック：100%プラスチック（単一素材）だけでできていて、大きさがおおむね30cm角以内のもの。／一辺がおおむね30ｃｍ以上のもの → 粗大ごみ"
+  },
+  "helmet": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "ヘルメット：粗大ごみ"
+  },
+  "keyboard-mouse": {
+   "category": "nonburnable",
+   "prepJa": [
+    "乾電池を外す"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "パソコンのキーボード、マウス：金属・陶器・ガラスごみ"
+  },
+  "smartphone-case": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "100%プラスチックのみ。革・布・金属などを含むものは燃やすごみ（金属製は金属・陶器・ガラスごみ）。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチック：100%プラスチック（単一素材）だけでできていて…／回収できないもの：金属などのプラスチック以外の素材が含まれているもの"
+  },
+  "contact-lens-case": {
+   "category": "plastic",
+   "prepJa": [
+    "洗う"
+   ],
+   "noteJa": "",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html",
+   "ruleQuoteJa": "製品プラスチック：100%プラスチック（単一素材）だけでできていて、大きさがおおむね30cm角以内のもの。"
+  },
+  "nail-polish": {
+   "category": "nonburnable",
+   "prepJa": [
+    "中身を使い切る"
+   ],
+   "noteJa": "中身が残ったびんは資源にならない。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html",
+   "ruleQuoteJa": "出せないもの（金属・陶器・ガラスごみ）：汚れのとれないびん、缶、ペットボトル"
+  },
+  "cosmetic-pencil": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "化粧品のびんは資源（びん）、プラ容器は資源プラスチック。",
+   "explicit": false,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "口紅：燃やすごみ／えんぴつ：燃やすごみ"
+  },
+  "glasses": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "金属・ガラスを含まないもの（プラスチックのみ等）は燃やすごみ。",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "めがね：金属・陶器・ガラス等でできているものは「金属・陶器・ガラスごみ」、そのほかは「燃やすごみ」です。"
+  },
+  "watch": {
+   "category": "nonburnable",
+   "prepJa": [
+    "電池を外して資源の日へ"
+   ],
+   "noteJa": "",
+   "explicit": true,
+   "source": "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html",
+   "ruleQuoteJa": "時計：金属・陶器・ガラスごみ／一辺の長さが30cmを超える場合は、粗大ごみです。"
+  }
+ }
+}
