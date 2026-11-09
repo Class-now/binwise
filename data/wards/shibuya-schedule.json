@@ -1,0 +1,928 @@
+{
+ "ward": "shibuya",
+ "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomid.html",
+ "readOn": "2026-11-10",
+ "notes": "町丁目別に可燃ごみ（週2回）・不燃ごみ（月1回、第n曜日）・資源（週1回）の曜日をHTMLの表で掲載（更新日2026年11月2日）。収集日の朝8時まで、繁華街地域は7時30分まで。資源（古紙・びん・缶・ペットボトル・スプレー缶・プラスチック・蛍光管）はすべて同じ曜日。PDF版：地域別収集日（曜日）一覧表、令和8年10月〜令和9年4月の収集日一覧表、四か国語版曜日表。区の分別アプリ・公式LINEにも地域別カレンダーあり。大規模集合住宅は別の収集日の場合あり。不燃ごみは毎月29〜31日は収集なし。",
+ "areas": [
+  {
+   "area": "上原1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "上原2・3丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "鶯谷町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "宇田川町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "恵比寿1・2丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "恵比寿3・4丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿西1・2丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿南1丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿南2・3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "大山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "神山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "桜丘町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "笹塚1丁目（52～64を除く）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "笹塚1丁目52～64、2・3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第4金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "猿楽町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "渋谷1～3丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "渋谷4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "松濤1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "松濤2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "神泉町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前1丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前2～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前5丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "神宮前6丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神南1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "千駄ヶ谷1～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "千駄ヶ谷5・6丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "代官山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "富ヶ谷1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "富ヶ谷2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "道玄坂1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "道玄坂2丁目1～10",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "道玄坂2丁目（1～10を除く）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "南平台町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "西原1～3丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "幡ヶ谷1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "幡ヶ谷2丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "幡ヶ谷3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "鉢山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "初台1・2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "東1～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "広尾1～5丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "本町1丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "本町2・4・6丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "本町3・5丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第4土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "円山町",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "元代々木町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "代々木1・2丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "代々木3・4丁目（8を除く）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "代々木4丁目8、5丁目57～68",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "代々木5丁目（57～68を除く）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "代々木神園町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "宇田川町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "桜丘町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "渋谷1～3丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前1丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前3・4丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前6丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神泉町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神南1丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂1丁目（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂2丁目1～10（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂2丁目（1～10を除く）（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "円山町（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  }
+ ]
+}

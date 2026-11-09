@@ -1,0 +1,182 @@
+id	ja	en	parts (composite only)
+food-scraps	生ごみ（調理くず・食べ残し）	food scraps
+eggshells	卵の殻	eggshells
+coffee-grounds	コーヒーかす	coffee grounds
+tea-bags	ティーバッグ	tea bags
+used-cooking-oil	使用済み食用油	used cooking oil
+disposable-chopsticks	割り箸	disposable chopsticks
+toothpicks-skewers	つまようじ・竹串	toothpicks and skewers
+paper-cups	紙コップ	paper cups
+paper-plates	紙皿	paper plates
+plastic-food-tray	食品トレイ（白色・色柄）	plastic/foam food tray
+plastic-egg-carton	卵パック（プラスチック）	plastic egg carton
+plastic-bento-container	弁当・惣菜のプラ容器	plastic takeaway / bento container
+cup-noodle	カップ麺容器	cup noodle container	cup (plastic or paper), lid (paper/aluminium)
+instant-noodle-wrapper	袋麺の袋	instant noodle wrapper
+snack-bag	菓子の袋	snack bag
+plastic-shopping-bag	レジ袋	plastic shopping bag
+plastic-wrap	食品用ラップ	cling film
+aluminium-foil	アルミホイル	aluminium foil
+yogurt-cup	ヨーグルト・プリンのカップ	yogurt / pudding cup	cup, lid
+mayonnaise-bottle	マヨネーズ・ケチャップの容器	mayonnaise / ketchup bottle
+pet-bottle	ペットボトル（飲料・酒・しょうゆ）	PET bottle	bottle, cap, label
+pet-bottle-cap	ペットボトルのキャップ（単体）	PET bottle cap
+non-pet-plastic-bottle	食用油・ドレッシングのプラボトル	plastic cooking-oil / dressing bottle
+glass-bottle	飲料・調味料のびん	glass bottle (drinks, sauces)	bottle, cap
+wine-bottle	ワインのびん	wine bottle	bottle, cork
+jam-jar	ジャムのびん（金属ふた）	jam jar	jar, lid
+cosmetics-glass-bottle	化粧品のびん	cosmetics glass bottle
+medicine-glass-bottle	薬・栄養ドリンクのびん	medicine / energy-drink bottle
+aluminium-can	アルミ缶（飲料）	aluminium drink can
+steel-can	スチール缶（飲料）	steel drink can
+food-can	缶詰の缶	food tin
+cookie-tin	菓子・のりの缶	biscuit / seaweed tin
+spray-can	スプレー缶	aerosol spray can
+cassette-gas-can	カセットボンベ	butane gas canister
+metal-bottle-cap	びんの金属キャップ・王冠	metal bottle cap
+milk-carton	牛乳パック（紙パック）	milk / juice carton
+aluminium-lined-carton	内側がアルミの紙パック	aluminium-lined carton
+cardboard	段ボール	cardboard box
+pizza-box	ピザの箱（油汚れあり）	pizza box (greasy)
+newspaper	新聞・折込チラシ	newspaper and flyers
+magazines	雑誌	magazines
+books	本	books
+paper-bag	紙袋	paper bag
+cereal-box	菓子箱・ティッシュ箱（雑がみ）	cereal / snack box (mixed paper)	box, film window
+toilet-paper-core	トイレットペーパーの芯	toilet-paper core
+envelope	封筒	envelope	envelope, plastic window
+wrapping-paper	包装紙	wrapping paper
+receipt	レシート（感熱紙）	receipt (thermal paper)
+shredded-paper	シュレッダーくず	shredded paper
+photographs	写真	photographs
+used-tissue	使用済みティッシュ	used tissue
+paper-towel	キッチンペーパー	paper towel
+dirty-paper	汚れた紙・油紙	soiled / greasy paper
+broken-glass	割れたガラス	broken glass
+drinking-glass	ガラスのコップ	drinking glass
+ceramic-dish	陶磁器の食器	ceramic dish / mug
+heat-resistant-glass	耐熱ガラス容器	heat-resistant glass dish
+mirror	手鏡・小さな鏡	small mirror
+light-bulb	白熱電球	incandescent light bulb
+led-bulb	LED電球	LED bulb
+fluorescent-tube	蛍光灯	fluorescent tube / bulb
+frying-pan	フライパン	frying pan
+pot	鍋	cooking pot
+kettle	やかん	kettle (non-electric)
+kitchen-knife	包丁	kitchen knife
+scissors	はさみ	scissors
+metal-cutlery	金属のスプーン・フォーク	metal cutlery
+disposable-cutlery	使い捨てのプラスプーン・フォーク	disposable plastic cutlery
+plastic-straw	ストロー	plastic straw
+wire-hanger	針金ハンガー	wire hanger
+plastic-hanger	プラスチックハンガー	plastic hanger
+umbrella	傘	umbrella
+razor	かみそり	razor
+nails-screws	くぎ・ねじ	nails and screws
+dry-cell-battery	乾電池	alkaline / dry-cell battery
+button-battery	ボタン電池	button cell battery
+rechargeable-battery	充電式電池（リチウムイオン等）	rechargeable battery
+mobile-battery	モバイルバッテリー	power bank
+disposable-lighter	使い捨てライター	disposable lighter
+matches	マッチ	matches
+mercury-thermometer	水銀体温計・水銀血圧計	mercury thermometer
+paint	ペンキ・塗料	paint
+medicine	薬	medicines
+insulin-needle	在宅医療の注射針	home-medical needles
+mobile-phone	携帯電話・スマートフォン	mobile phone / smartphone
+laptop	パソコン（ノート・デスクトップ）	computer (laptop / desktop)
+computer-monitor	パソコン用ディスプレイ	computer monitor
+hair-dryer	ドライヤー	hair dryer
+electric-shaver	電気かみそり	electric shaver
+electric-toothbrush	電動歯ブラシ	electric toothbrush
+iron	アイロン	clothes iron
+toaster	トースター	toaster
+rice-cooker	炊飯器	rice cooker
+electric-kettle	電気ケトル・ポット	electric kettle
+microwave	電子レンジ	microwave oven
+vacuum-cleaner	掃除機	vacuum cleaner
+earphones	イヤホン・ヘッドホン	earphones / headphones
+game-console	ゲーム機	game console
+digital-camera	デジタルカメラ	digital camera
+electric-cord	電気コード・ケーブル	electrical cord / cable
+remote-control	リモコン	remote control
+heated-tobacco-device	加熱式たばこ・電子たばこ	heated-tobacco / e-cigarette device
+electric-fan	扇風機	electric fan
+heater	電気ストーブ・ヒーター	electric heater
+kerosene-heater	石油ストーブ	kerosene heater
+tv	テレビ	television
+refrigerator	冷蔵庫・冷凍庫	refrigerator / freezer
+washing-machine	洗濯機・衣類乾燥機	washing machine / dryer
+air-conditioner	エアコン	air conditioner
+futon	布団	futon
+mattress	マットレス	mattress
+bed-frame	ベッド	bed frame
+chair	いす	chair
+desk	机	desk
+bookshelf	本棚	bookshelf
+sofa	ソファ	sofa
+carpet	じゅうたん・カーペット	carpet / rug
+bicycle	自転車	bicycle
+suitcase	スーツケース	suitcase
+plastic-storage-case	衣装ケース（プラスチック）	plastic storage drawer / case
+ironing-board	アイロン台	ironing board
+curtains	カーテン	curtains
+toothbrush	歯ブラシ	toothbrush
+toothpaste-tube	歯磨き粉のチューブ	toothpaste tube
+shampoo-bottle	シャンプー・洗剤のボトル	shampoo / detergent bottle	bottle, pump
+refill-pouch	詰め替え用パウチ	refill pouch
+bucket	バケツ（プラスチック）	plastic bucket
+plastic-toy	プラスチックのおもちゃ	plastic toy
+stuffed-toy	ぬいぐるみ	stuffed toy
+ballpoint-pen	ボールペン	ballpoint pen
+clear-file	クリアファイル	plastic clear file
+cd-dvd	CD・DVD	CD / DVD	disc, case
+video-tape	ビデオテープ・カセットテープ	video / cassette tape
+rubber-gloves	ゴム手袋	rubber gloves
+sponge	スポンジ	kitchen sponge
+cutting-board	まな板（プラスチック）	plastic cutting board
+styrofoam-packaging	発泡スチロール（緩衝材・箱）	styrofoam packaging
+bubble-wrap	プチプチ（気泡緩衝材）	bubble wrap
+plastic-cosmetics-container	化粧品のプラ容器	plastic cosmetics container
+plastic-plant-pot	植木鉢（プラスチック）	plastic plant pot
+ceramic-plant-pot	植木鉢（陶器）	ceramic plant pot
+soil	土・砂・石	soil, sand, stones
+clothes	衣類	clothes
+shoes	靴	shoes
+bag	かばん	bag
+belt	ベルト	belt
+towels	タオル	towels
+diapers	紙おむつ	disposable diapers
+sanitary-pads	生理用品	sanitary products
+cat-litter	猫砂・ペットシーツ	cat litter / pet pads
+pet-waste	ペットのふん	pet feces
+cigarette-butts	たばこの吸い殻	cigarette butts
+wood-scraps	木くず・小さな木製品	wood scraps / small wooden items
+branches	せん定枝	tree branches
+fallen-leaves	落ち葉・草	fallen leaves / grass
+cut-flowers	花	cut flowers
+candle	ろうそく	candle
+face-mask	マスク	face mask
+hand-warmer	使い捨てカイロ	disposable hand warmer
+desiccant	乾燥剤・保冷剤	desiccant / ice pack
+wet-wipes	ウェットティッシュ	wet wipes
+cotton-swab	綿棒	cotton swab
+rubber-band	輪ゴム	rubber band
+leather-goods	革製品（小物）	small leather goods
+fire-extinguisher	消火器	fire extinguisher
+car-tire	自動車のタイヤ	car tire
+car-battery	自動車のバッテリー	car battery
+motorcycle	オートバイ	motorcycle
+piano	ピアノ	piano
+gas-cylinder	プロパンガスボンベ	propane gas cylinder
+umbrella-stand	傘立て	umbrella stand
+cushion	クッション・座布団	cushion
+plastic-file-box	ファイルボックス（プラスチック）	plastic file box
+helmet	ヘルメット	helmet
+keyboard-mouse	キーボード・マウス	keyboard / mouse
+smartphone-case	スマホケース	phone case
+contact-lens-case	コンタクトレンズのケース	contact-lens case
+nail-polish	マニキュア	nail polish
+cosmetic-pencil	化粧品（使い切り）	makeup items
+glasses	めがね	eyeglasses
+watch	腕時計	wristwatch

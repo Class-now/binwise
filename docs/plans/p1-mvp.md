@@ -46,8 +46,8 @@ Tokyo's 23 wards each have their own sorting rules (Shibuya: 可燃ごみ / 不�
 - `data/wards/shibuya-schedule.json`: Shibuya's collection-day table by 町丁目 if it is published as a table (otherwise skip and rely on the user entering days).
 - `docs/data-sources.md`: every URL, date read, what was taken, and the licence/terms of use note (government info used as facts, with attribution).
 - Validation script `scripts/validate-data.mjs` (run in a vitest test): schema check, every part's category exists, every item has a source, no duplicate ids/aliases conflicts.
-- [ ] ≥150 items per ward with sources, validation test passes
-- [ ] data-sources.md complete
+- [x] ≥150 items per ward with sources, validation test passes
+- [x] data-sources.md complete
 Do NOT implement: wards other than these three.
 
 ### Task 3: Matching and AI pipeline

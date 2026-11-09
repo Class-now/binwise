@@ -1,0 +1,2960 @@
+{
+ "ward": "shibuya",
+ "nameJa": "渋谷区",
+ "nameEn": "Shibuya City",
+ "searchUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+ "sources": [
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "title": "ごみの品目別分別一覧（50音順）",
+   "readOn": "2026-11-10",
+   "taken": "品目ごとの分類と出し方（更新日2026年6月30日）"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/",
+   "title": "家庭から出るごみ・資源",
+   "readOn": "2026-11-10",
+   "taken": "関連ページの一覧"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "title": "可燃ごみ",
+   "readOn": "2026-11-10",
+   "taken": "週2回・朝8時・分け方と出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "title": "不燃ごみ",
+   "readOn": "2026-11-10",
+   "taken": "月1回・分け方と出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "title": "資源",
+   "readOn": "2026-11-10",
+   "taken": "資源9品目の出し方、拠点回収品目"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "title": "プラスチック",
+   "readOn": "2026-11-10",
+   "taken": "容器包装・製品プラスチックの対象と出し方"
+  },
+  {
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/24769e135c9341ea84eae07d27b7732d/assets_kurashi_000061365.pdf",
+   "title": "「プラスチック」の分別区分と回収方法が変わります（PDF）",
+   "readOn": "2026-11-10",
+   "taken": "令和4年7月開始、まとめて1袋、30cm角、禁忌品"
+  },
+  {
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/fb789c9d2e7e4694b94c25e8ee2f7465/assets_kurashi_000062893.pdf",
+   "title": "住民説明会 質疑応答 分け方について（R3, PDF）",
+   "readOn": "2026-11-10",
+   "taken": "アルミ複合袋、ペットボトルのふた・ラベル"
+  },
+  {
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/fd90cdd3bf824a0092f4524fc6b9b966/assets_kurashi_000062895.pdf",
+   "title": "住民説明会 質疑応答 金属などの混合製品（PDF）",
+   "readOn": "2026-11-10",
+   "taken": "混合製品は多い素材で判断、金属フックのハンガー"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/koshi.html",
+   "title": "新聞紙・雑誌・雑がみ・段ボール",
+   "readOn": "2026-11-10",
+   "taken": "古紙の出し方と回収できないもの"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_bonbe_henko.html",
+   "title": "カセットボンベやスプレー缶は、資源として回収しています",
+   "readOn": "2026-11-10",
+   "taken": "スプレー缶の出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/20150218kasai.html",
+   "title": "清掃車両・処理施設で火災が多発しています",
+   "readOn": "2026-11-10",
+   "taken": "充電式電池・スプレー缶・ライターの出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/other.html",
+   "title": "電池・充電式電池",
+   "readOn": "2026-11-10",
+   "taken": "電池の種類別の出し方と区の回収拠点"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/fluorescent_tube.html",
+   "title": "蛍光管",
+   "readOn": "2026-11-10",
+   "taken": "平成30年7月から資源、出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_suigin.html",
+   "title": "「水銀が含まれるごみ」の出し方にご注意ください",
+   "readOn": "2026-11-10",
+   "taken": "水銀体温計・血圧計は清掃事務所へ"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html",
+   "title": "粗大ごみ",
+   "readOn": "2026-11-10",
+   "taken": "30cm基準、申込方法、処理券、出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "title": "粗大ごみ品目手数料一覧",
+   "readOn": "2026-11-10",
+   "taken": "品目別手数料（更新日2025年12月10日）"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/shushu_no.html",
+   "title": "区で収集できないもの",
+   "readOn": "2026-11-10",
+   "taken": "収集できない品目"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/elec.html",
+   "title": "家電",
+   "readOn": "2026-11-10",
+   "taken": "家電リサイクル法4品目の処分方法"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pc.html",
+   "title": "パソコン",
+   "readOn": "2026-11-10",
+   "taken": "メーカー回収・宅配便回収"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "title": "小型家電",
+   "readOn": "2026-11-10",
+   "taken": "回収ボックスの対象（13×28cm）と回収品目例"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pack.html",
+   "title": "紙パック・食品用発泡スチロールトレイ",
+   "readOn": "2026-11-10",
+   "taken": "拠点回収の出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/oil.html",
+   "title": "食用油",
+   "readOn": "2026-11-10",
+   "taken": "拠点回収の出し方"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/hurugi_box.html",
+   "title": "衣類",
+   "readOn": "2026-11-10",
+   "taken": "衣類リサイクルボックスの対象"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/syokki-kaisyu-rinji.html",
+   "title": "食器・調理器具などの回収",
+   "readOn": "2026-11-10",
+   "taken": "リユース回収の対象"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/bicycle.html",
+   "title": "自転車",
+   "readOn": "2026-11-10",
+   "taken": "まだ乗れる自転車の無料引き取り"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_chusha.html",
+   "title": "使用済み注射針の回収",
+   "readOn": "2026-11-10",
+   "taken": "回収薬局への持ち込み"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomid.html",
+   "title": "ごみ収集日",
+   "readOn": "2026-11-10",
+   "taken": "町丁目別の収集曜日表（HTML、更新日2026年11月2日）"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_panf.html",
+   "title": "資源とごみの正しい分け方・出し方パンフレット",
+   "readOn": "2026-11-10",
+   "taken": "日本語・英語・中国語・韓国語版の所在"
+  },
+  {
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/bfda2f5d763343b5a0b454087299d57f/2024wakedashiEnglish.pdf",
+   "title": "How to Sort and Dispose of Resources and Garbage Properly（英語版）",
+   "readOn": "2026-11-10",
+   "taken": "耐熱ガラス・塗料スプレー缶の扱い、多言語版の存在"
+  },
+  {
+   "url": "https://www.city.shibuya.tokyo.jp/guide/website/list/site_policy.html",
+   "title": "サイトポリシー",
+   "readOn": "2026-11-10",
+   "taken": "著作権の記載"
+  }
+ ],
+ "termsNote": "サイトポリシー「著作権について」：「本サイト上の情報・画像・図表などは、特に明示がない限り、その著作権を渋谷区が保有します。引用・転載・複製を希望される場合は、広報コミュニケーション課まで、ご連絡ください。転載・複製はこれを禁じます。」",
+ "schedule": {
+  "published": true,
+  "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomid.html",
+  "format": "html table",
+  "notes": "町丁目別に可燃ごみ（週2回）・不燃ごみ（月1回、第n曜日）・資源（週1回）の曜日をHTMLの表で掲載（更新日2026年11月2日）。収集日の朝8時まで、繁華街地域は7時30分まで。資源（古紙・びん・缶・ペットボトル・スプレー缶・プラスチック・蛍光管）はすべて同じ曜日。PDF版：地域別収集日（曜日）一覧表、令和8年10月〜令和9年4月の収集日一覧表、四か国語版曜日表。区の分別アプリ・公式LINEにも地域別カレンダーあり。大規模集合住宅は別の収集日の場合あり。不燃ごみは毎月29〜31日は収集なし。"
+ },
+ "scheduleTable": [
+  {
+   "area": "上原1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "上原2・3丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "鶯谷町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "宇田川町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "恵比寿1・2丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "恵比寿3・4丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿西1・2丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿南1丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "恵比寿南2・3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "大山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "神山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "桜丘町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "笹塚1丁目（52～64を除く）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "笹塚1丁目52～64、2・3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第4金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "猿楽町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "渋谷1～3丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "渋谷4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "松濤1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "松濤2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "神泉町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前1丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前2～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神宮前5丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "神宮前6丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "神南1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "千駄ヶ谷1～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "千駄ヶ谷5・6丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "代官山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "富ヶ谷1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "富ヶ谷2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "道玄坂1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "道玄坂2丁目1～10",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "道玄坂2丁目（1～10を除く）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "南平台町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "西原1～3丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "幡ヶ谷1丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "幡ヶ谷2丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "幡ヶ谷3丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "鉢山町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第3月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "初台1・2丁目",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "東1～4丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "広尾1～5丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第3金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   }
+  },
+  {
+   "area": "本町1丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   }
+  },
+  {
+   "area": "本町2・4・6丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "本町3・5丁目",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第4土",
+    "paper": "金",
+    "glass-bottle": "金",
+    "can": "金",
+    "pet-bottle": "金",
+    "spray-can": "金",
+    "plastic": "金",
+    "fluorescent": "金"
+   }
+  },
+  {
+   "area": "円山町",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "一部またはすべてが繁華街地域（繁華街地域は収集日の7時30分までに出す）"
+  },
+  {
+   "area": "元代々木町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第4月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "代々木1・2丁目",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "代々木3・4丁目（8を除く）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第4木",
+    "paper": "水",
+    "glass-bottle": "水",
+    "can": "水",
+    "pet-bottle": "水",
+    "spray-can": "水",
+    "plastic": "水",
+    "fluorescent": "水"
+   }
+  },
+  {
+   "area": "代々木4丁目8、5丁目57～68",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "代々木5丁目（57～68を除く）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   }
+  },
+  {
+   "area": "代々木神園町",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1火",
+    "paper": "月",
+    "glass-bottle": "月",
+    "can": "月",
+    "pet-bottle": "月",
+    "spray-can": "月",
+    "plastic": "月",
+    "fluorescent": "月"
+   }
+  },
+  {
+   "area": "宇田川町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "桜丘町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "渋谷1～3丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前1丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第2水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前3・4丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第1水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神宮前6丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "火・金",
+    "nonburnable": "第3水",
+    "paper": "木",
+    "glass-bottle": "木",
+    "can": "木",
+    "pet-bottle": "木",
+    "spray-can": "木",
+    "plastic": "木",
+    "fluorescent": "木"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神泉町（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "神南1丁目（一部地域）（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第1月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂1丁目（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂2丁目1～10（繁華街地域）",
+   "days": {
+    "burnable": "水・土",
+    "nonburnable": "第2月",
+    "paper": "火",
+    "glass-bottle": "火",
+    "can": "火",
+    "pet-bottle": "火",
+    "spray-can": "火",
+    "plastic": "火",
+    "fluorescent": "火"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "道玄坂2丁目（1～10を除く）（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第1金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  },
+  {
+   "area": "円山町（繁華街地域）",
+   "days": {
+    "burnable": "月・木",
+    "nonburnable": "第2金",
+    "paper": "土",
+    "glass-bottle": "土",
+    "can": "土",
+    "pet-bottle": "土",
+    "spray-can": "土",
+    "plastic": "土",
+    "fluorescent": "土"
+   },
+   "note": "繁華街地域の収集日。収集日の7時30分までに出す。エリアは清掃事務所に確認"
+  }
+ ],
+ "categories": [
+  {
+   "id": "burnable",
+   "ja": "可燃ごみ",
+   "en": "Burnable waste",
+   "rulesJa": [
+    "ふたのできる容器か中身の見える袋に入れる",
+    "収集日の朝8時までに指定の集積所へ（繁華街地域は7時30分まで）",
+    "生ごみは水分をよく切る",
+    "食用油は紙や布にしみこませるか凝固剤で固める",
+    "竹串など先のとがったものは紙などに包み「危険」と表示",
+    "木の枝は概ね50cm未満に切ってひもで束ねる（多量は有料）"
+   ],
+   "collectionJa": "週2回",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "examplesJa": "生ごみ、紙くず、紙おむつ、吸殻、衣類、木の枝・落ち葉・草花、ゴム製品、革製品、汚れの落ちないプラスチック"
+  },
+  {
+   "id": "nonburnable",
+   "ja": "不燃ごみ",
+   "en": "Non-burnable waste",
+   "rulesJa": [
+    "ふたのできる容器か中身の見える袋に入れる",
+    "収集日の朝8時までに指定の集積所へ（繁華街地域は7時30分まで）",
+    "刃物・割れた食器などは新聞紙などに包み「危険」と表示",
+    "ライターは使い切り、ライターだけ別の透明な袋に入れ「危険」と表示",
+    "電球・LED・割れた蛍光管は購入時のケースなどに入れる",
+    "30cm角を超えるものは粗大ごみ"
+   ],
+   "collectionJa": "月1回（第1〜第4の決まった曜日。毎月29〜31日は収集なし）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "examplesJa": "かさ、フライパン、やかん、はさみ、包丁、陶磁器・ガラス、ライター、電球・LED、アルミホイル、乾電池、使い捨てカイロ"
+  },
+  {
+   "id": "plastic",
+   "ja": "資源（プラスチック）",
+   "en": "Recyclable plastics (packaging and products)",
+   "rulesJa": [
+    "容器包装プラスチックと製品プラスチックをまとめて1つの中身の見える袋に入れる（袋は二重にしない）",
+    "食べ残しや汚れを軽く水で落とす（多少のシミは可）。すすいでも汚れが落ちないものは可燃ごみ",
+    "概ね30cm角以内（超えるものは粗大ごみ）",
+    "電池・ライター・カミソリ・在宅医療の注射針は入れない",
+    "資源の回収日の朝8時までに集積所へ"
+   ],
+   "collectionJa": "週1回（資源の日）。令和4年（2022年）7月から区全域で資源回収",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "examplesJa": "弁当・納豆・卵のパック、カップ類、食品トレイ、シャンプー・洗剤のボトル、菓子袋、レジ袋、ラップ、発泡スチロール、ペットボトルのキャップ・ラベル、文具・おもちゃ・ハンガー・バケツ・CD・DVD・ビデオテープなどのプラスチック製品"
+  },
+  {
+   "id": "pet-bottle",
+   "ja": "資源（ペットボトル）",
+   "en": "PET bottles",
+   "rulesJa": [
+    "ペットボトルマークの付いたものが対象",
+    "キャップ・ラベルを外し（プラスチックへ）、中をすすいでつぶす",
+    "ペットボトルだけを中身の見える袋に入れる",
+    "油などで汚れたペットボトルは可燃ごみ"
+   ],
+   "collectionJa": "週1回（資源の日）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "examplesJa": "飲料・酒・しょうゆのペットボトル"
+  },
+  {
+   "id": "glass-bottle",
+   "ja": "資源（びん）",
+   "en": "Glass bottles (food and drink)",
+   "rulesJa": [
+    "飲食料用のガラスびんが対象",
+    "中をすすぎ、中身の見える袋に入れる（缶とは別の袋）",
+    "プラスチック製のキャップはプラスチックへ",
+    "油で汚れたびん、化粧品・薬品のびん、割れたびん、コップなどのガラス類は不燃ごみ"
+   ],
+   "collectionJa": "週1回（資源の日）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "examplesJa": "飲料・酒・調味料のびん"
+  },
+  {
+   "id": "can",
+   "ja": "資源（缶）",
+   "en": "Cans (food and drink)",
+   "rulesJa": [
+    "飲食料用のアルミ缶・スチール缶、お菓子や海苔の缶、食品用のきれいな一斗缶が対象",
+    "中をすすぎ、中身の見える袋に入れる（びんとは別の袋）",
+    "油などで汚れた缶、塗料の缶は不燃ごみ"
+   ],
+   "collectionJa": "週1回（資源の日）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "examplesJa": "飲料缶、缶詰、菓子・のり・お茶の缶"
+  },
+  {
+   "id": "paper",
+   "ja": "資源（古紙：新聞・雑誌・段ボール・雑がみ）",
+   "en": "Paper (newspaper, magazines, cardboard, mixed paper)",
+   "rulesJa": [
+    "新聞（折込チラシ含む）・雑誌・段ボールを種類別にひもで縛る",
+    "雑がみは雑誌などに挟んで縛る。テープ・フィルム・金具など紙以外は取り除く",
+    "窓付き封筒・感熱紙・ノーカーボン紙・写真・紙コップ・ビニールコート紙・においの強い箱・トイレットペーパーやラップの芯は可燃ごみ",
+    "資源の回収日の朝8時までに集積所へ（できるだけ町会などの集団回収へ）"
+   ],
+   "collectionJa": "週1回（資源の日）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/koshi.html",
+   "examplesJa": "新聞、チラシ、雑誌、本、段ボール、包装紙、紙袋、紙製の空き箱、封筒"
+  },
+  {
+   "id": "spray-can",
+   "ja": "資源（スプレー缶・カセットボンベ）",
+   "en": "Spray cans and gas cartridges",
+   "rulesJa": [
+    "中身を使い切る",
+    "びん・缶・ペットボトルとは別の透明な袋に入れて資源の日に出す",
+    "中身が残っているものは使い切ったものと袋を分け「中身が入っています」と表示する（区の一覧による）。清掃事務所（03-5467-4300）にも相談できる"
+   ],
+   "collectionJa": "週1回（資源の日）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_bonbe_henko.html",
+   "examplesJa": "スプレー缶、カセットボンベ"
+  },
+  {
+   "id": "fluorescent",
+   "ja": "資源（蛍光管類）",
+   "en": "Fluorescent tubes (mercury-containing)",
+   "rulesJa": [
+    "水銀を含む環型・直管型・電球型の蛍光管が対象",
+    "購入時のケースに入れるか紙などに包み、割れないように蛍光管だけでまとめて出す",
+    "割れた蛍光管・白熱電球・LEDは不燃ごみ",
+    "照明器具などに付いている蛍光管は外して出す"
+   ],
+   "collectionJa": "週1回（資源の日）。平成30年（2018年）7月から資源",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/fluorescent_tube.html",
+   "examplesJa": "直管・環型・電球型の蛍光管",
+   "noteJa": "渋谷区独自の区分（集積所で回収する資源9品目の一つ）"
+  },
+  {
+   "id": "carton",
+   "ja": "紙パック（拠点回収）",
+   "en": "Paper drink cartons (drop-off boxes)",
+   "rulesJa": [
+    "水でよく洗って切り開き、十分に乾かしてひもで縛る",
+    "区施設の回収ボックスへ（開館時間のみ）",
+    "集積所に出す場合は可燃ごみ"
+   ],
+   "collectionJa": "区施設の回収ボックス（常時・開館時間内）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pack.html",
+   "examplesJa": "牛乳・ジュースの紙パック"
+  },
+  {
+   "id": "ward-dropoff",
+   "ja": "拠点回収（区施設の回収ボックス）",
+   "en": "Ward drop-off points",
+   "rulesJa": [
+    "区の施設に置かれた回収ボックスへ持ち込む（開館時間のみ）",
+    "品目ごとに回収場所が異なる。区の各ページで確認"
+   ],
+   "collectionJa": "区施設（常時・開館時間内）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "examplesJa": "食用油、衣類、食品用発泡スチロールトレイ、食器・調理器具（リユース）、まだ乗れる自転車",
+   "noteJa": "渋谷区独自の区分。集積所に出すこともできる品目は各品目の注記を参照"
+  },
+  {
+   "id": "small-appliance",
+   "ja": "小型家電（拠点回収）",
+   "en": "Small electronics (drop-off box)",
+   "rulesJa": [
+    "投入口13cm×28cmに入る小型家電を区施設の黄色い回収ボックスへ",
+    "電池類は必ず外す。携帯電話などは個人情報を消去",
+    "変形・破損・膨張した充電式電池を内蔵したものは入れない",
+    "パソコンを含む宅配便回収（リネットジャパン）も利用可",
+    "集積所に出す場合は不燃ごみ（30cm角を超えるものは粗大ごみ）"
+   ],
+   "collectionJa": "区施設の回収ボックス（開館時間内）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "examplesJa": "携帯電話、携帯音楽プレーヤー、携帯ゲーム機、デジタルカメラ、電子辞書、電卓、電話機、電気かみそり、ドライヤー、リモコン、ACアダプター・ケーブル"
+  },
+  {
+   "id": "oversized",
+   "ja": "粗大ごみ",
+   "en": "Oversized waste (bulky items, fee)",
+   "rulesJa": [
+    "一辺が30cmを超えるもの。180cmを超えるものは180cm以下に切断・解体",
+    "事前申し込み制：粗大ごみ受付センター（03-6834-4777、月〜土9〜17時）、LINE、インターネット",
+    "有料粗大ごみ処理券（A券200円・B券300円）をコンビニなどで購入して1点ずつ貼る（ネット・LINE申込はキャッシュレス決済も可）",
+    "収集日の朝8時までに自宅の玄関先などへ（集合住宅は1階まで降ろす）",
+    "照明器具などの蛍光管、充電式電池は外す"
+   ],
+   "collectionJa": "申し込み制（有料）",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html",
+   "examplesJa": "家具、布団、自転車、電子レンジ、掃除機、扇風機、ストーブ、じゅうたん"
+  },
+  {
+   "id": "appliance-recycling",
+   "ja": "家電リサイクル法対象品（区では収集しない）",
+   "en": "Home Appliance Recycling Law items",
+   "rulesJa": [
+    "エアコン・テレビ・冷蔵庫/冷凍庫・洗濯機/衣類乾燥機は粗大ごみに出せない",
+    "購入した店か買い替える店に引き取りを依頼",
+    "店が分からないなどの場合は家電リサイクル受付センター（0570-087200）へ",
+    "リサイクル料金＋運搬料金が必要"
+   ],
+   "collectionJa": "販売店・家電リサイクル受付センター",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/elec.html",
+   "examplesJa": "エアコン、テレビ、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機"
+  },
+  {
+   "id": "pc-recycling",
+   "ja": "パソコン（メーカー回収・区では回収しない）",
+   "en": "PC recycling (manufacturer / mail-in)",
+   "rulesJa": [
+    "パソコン本体・ディスプレイは区では回収しない",
+    "メーカーに申し込む（PCリサイクルマーク付きは無償）。窓口はパソコン3R推進協会で確認",
+    "または区と協定のリネットジャパンの宅配便回収（パソコン本体を含めば1箱無料）",
+    "データは自分で消去する"
+   ],
+   "collectionJa": "メーカー回収・宅配便回収",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pc.html",
+   "examplesJa": "デスクトップ・ノートパソコン、パソコン用ディスプレイ"
+  },
+  {
+   "id": "store-takeback",
+   "ja": "販売店・回収協力店などでの回収",
+   "en": "Store / collection-box take-back",
+   "rulesJa": [
+    "小型充電式電池・モバイルバッテリー：JBRC回収協力店の「小型充電式電池リサイクルBOX」へ、または区の回収拠点（清掃事務所・宇田川分室・本町リサイクルセンターなど）へ持ち込み",
+    "ボタン電池：販売店の「ボタン電池回収缶」へ",
+    "電池は端子にセロハンテープを貼って絶縁する",
+    "在宅医療の注射針：購入した「使用済み注射針回収薬局」へ"
+   ],
+   "collectionJa": "販売店・回収協力店・区の回収拠点",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/other.html",
+   "examplesJa": "リチウムイオン電池、ニカド・ニッケル水素電池、モバイルバッテリー、ボタン電池、使用済み注射針"
+  },
+  {
+   "id": "contact-office",
+   "ja": "個別（清掃事務所に連絡）",
+   "en": "Contact the Waste Collection Office",
+   "rulesJa": [
+    "集積所に出さず、渋谷区清掃事務所（03-5467-4300）に連絡する"
+   ],
+   "collectionJa": "個別対応",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_suigin.html",
+   "examplesJa": "水銀体温計、水銀血圧計",
+   "noteJa": "渋谷区独自の区分（区の一覧の分類「個別」）"
+  },
+  {
+   "id": "toilet",
+   "ja": "トイレに流す（区では収集しない）",
+   "en": "Flush down the toilet",
+   "rulesJa": [
+    "ペットのふんは区では収集しない。トイレに流す"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "examplesJa": "ペットのふん"
+  },
+  {
+   "id": "not-collected",
+   "ja": "区で収集できないもの",
+   "en": "Not collected by the ward",
+   "rulesJa": [
+    "製造元・販売店・専門業者に相談する",
+    "製造元や販売店が不明の場合は清掃事務所（03-5467-4300）に相談"
+   ],
+   "collectionJa": "区では収集しない",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/shushu_no.html",
+   "examplesJa": "ガスボンベ類、石油類、塗料、マッチ、消火器、金庫、薬品類、自動車、オートバイ、タイヤ、ピアノ、車・バイク用バッテリー、石・砂・土"
+  },
+  {
+   "id": "unlisted",
+   "ja": "区の資料に記載なし（清掃事務所に確認）",
+   "en": "Not listed by the ward — ask the office",
+   "rulesJa": [
+    "区の一覧・ルールから判断できないもの。渋谷区清掃事務所（03-5467-4300）または区の分別アプリ・よくあるご質問で確認"
+   ],
+   "collectionJa": "—",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "examplesJa": "",
+   "noteJa": "データセット側の区分（区の公式区分ではない）。区の一覧に「見つからない場合は…お問い合わせ」とある"
+  }
+ ],
+ "items": {
+  "food-scraps": {
+   "category": "burnable",
+   "prepJa": [
+    "水分をよく切る"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "生ごみ　可燃ごみ"
+  },
+  "eggshells": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "卵の殻　可燃ごみ"
+  },
+  "coffee-grounds": {
+   "category": "burnable",
+   "prepJa": [
+    "水分をよく切る"
+   ],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "可燃ごみ「生ごみ　生ごみ・食用油など」「生ごみは水分をよく切ってください。」"
+  },
+  "tea-bags": {
+   "category": "burnable",
+   "prepJa": [
+    "水分をよく切る"
+   ],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "可燃ごみ「生ごみ　生ごみ・食用油など」"
+  },
+  "used-cooking-oil": {
+   "category": "ward-dropoff",
+   "prepJa": [
+    "拠点回収：もとの容器やペットボトルに入れ、しっかり栓をして区施設の回収箱へ",
+    "集積所に出す場合：布などにしみこませるか固めて可燃ごみ"
+   ],
+   "noteJa": "集積所に出す場合は可燃ごみ。鉱物油・業務用油・ドレッシングなどは拠点回収不可",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "油（食用）　拠点回収または可燃ごみ　区内施設で拠点回収を行なっています。集積所に出す場合は、必ず布などにしみこませるか固めて、可燃ごみで出してください。"
+  },
+  "disposable-chopsticks": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "割り箸　可燃ごみ"
+  },
+  "toothpicks-skewers": {
+   "category": "burnable",
+   "prepJa": [
+    "串を折るか紙などに包み「キケン」と表示"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "竹串　可燃ごみ　けがをしないように、串を折るか紙などに包んで「キケン」と表示して出してください。"
+  },
+  "paper-cups": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙コップ　可燃ごみ"
+  },
+  "paper-plates": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙皿　可燃ごみ"
+  },
+  "plastic-food-tray": {
+   "category": "plastic",
+   "prepJa": [
+    "洗って汚れを落とす",
+    "汚れが落ちなければ可燃ごみ"
+   ],
+   "noteJa": "食品用発泡スチロールトレイ（白・色柄とも）は区施設の回収ボックス（拠点回収）にも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "発泡スチロールトレイ　拠点回収または資源　区内の施設で拠点回収を行なっています。集積所に出す場合は資源で出してください（汚れが落ちなければ可燃ごみで出してください）。"
+  },
+  "plastic-egg-carton": {
+   "category": "plastic",
+   "prepJa": [
+    "軽くすすぐ"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "卵パック（プラスチック製）　資源"
+  },
+  "plastic-bento-container": {
+   "category": "plastic",
+   "prepJa": [
+    "食べ残しを取り、軽くすすぐ",
+    "汚れが落ちなければ可燃ごみ"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "弁当容器　可燃ごみ　プラスチック製のものは資源で出してください。水ですすいでも汚れが落ちなければ可燃ごみで出してください。"
+  },
+  "cup-noodle": {
+   "parts": {
+    "cup (plastic or paper)": "plastic",
+    "lid (paper/aluminium)": "burnable"
+   },
+   "prepJa": [
+    "容器を軽くすすぐ",
+    "紙製の容器は可燃ごみ",
+    "すすいでも汚れが落ちなければ可燃ごみ"
+   ],
+   "noteJa": "容器は区の一覧に記載あり。ふたは区の一覧の「金色・銀色の紙　可燃ごみ」からの判断",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "カップめん容器（紙・プラスチック製）　可燃ごみ　プラスチック製のものは資源で出してください。水ですすいでも汚れが落ちなければ可燃ごみで出してください。／金色・銀色の紙　可燃ごみ"
+  },
+  "instant-noodle-wrapper": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「袋類（菓子袋・レトルト食品の包装、レジ袋、パンの包装など）」"
+  },
+  "snack-bag": {
+   "category": "plastic",
+   "prepJa": [
+    "中を軽く水で洗う"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「袋類（菓子袋・レトルト食品の包装、レジ袋、パンの包装など）」。住民説明会Q&A：ポテトチップスの袋は「中を軽く水で洗ってプラスチックとして資源で排出してください。」"
+  },
+  "plastic-shopping-bag": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "レジ袋　資源"
+  },
+  "plastic-wrap": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れが落ちなければ可燃ごみ。ラップの芯（紙）は可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ラップ類　資源"
+  },
+  "aluminium-foil": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "アルミホイル・アルミ箔　不燃ごみ"
+  },
+  "yogurt-cup": {
+   "parts": {
+    "cup": "plastic",
+    "lid": "plastic"
+   },
+   "prepJa": [
+    "軽くすすぐ",
+    "汚れが落ちなければ可燃ごみ"
+   ],
+   "noteJa": "カップは区の資料に例示あり。ふたはプラスチックとアルミの複合でもプラスチック（住民説明会Q&A）。紙製のふたは可燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「カップ類（カップめん・ドリンク・プリンのカップなど）」。Q&A：ポテトチップスの袋のようなプラスチックとアルミがくっついているもの→「プラスチック」として排出してください。"
+  },
+  "mayonnaise-bottle": {
+   "category": "plastic",
+   "prepJa": [
+    "中身を使い切り、すすぐ",
+    "汚れが落ちなければ可燃ごみ"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "マヨネーズの容器　資源　汚れが落ちなければ可燃ごみで出してください。"
+  },
+  "pet-bottle": {
+   "parts": {
+    "bottle": "pet-bottle",
+    "cap": "plastic",
+    "label": "plastic"
+   },
+   "prepJa": [
+    "キャップとラベルを外す",
+    "中をすすいでつぶす",
+    "ボトルだけを中身の見える袋に入れる"
+   ],
+   "noteJa": "油などで汚れたペットボトルは可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "ペットボトル　キャップ・ラベルをはずし、中をすすいでつぶし、中身の見える袋に入れてください。キャップ・ラベル…はプラスチックへ出してください。"
+  },
+  "pet-bottle-cap": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ペットボトルのキャップ・ラベル　資源（プラスチック）"
+  },
+  "non-pet-plastic-bottle": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "食用油の容器は区の一覧で可燃ごみ。ドレッシングなどの容器も、すすいで汚れが落ちなければ可燃ごみ（落ちればプラスチック）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "油の容器（プラスチック製）　可燃ごみ　汚れたびん・カン・ペットボトルは資源になりません。"
+  },
+  "glass-bottle": {
+   "parts": {
+    "bottle": "glass-bottle",
+    "cap": "nonburnable"
+   },
+   "prepJa": [
+    "中をすすぐ",
+    "キャップを外す",
+    "缶とは別の中身の見える袋に入れる"
+   ],
+   "noteJa": "金属キャップは区の資料に記載がなく「小型の金属類＝不燃ごみ」からの判断。プラスチック製キャップはプラスチック",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "びん（飲食料用）資源　中をすすぎ、中身の見える袋に入れてください。プラスチック製のキャップはプラスチックへ出してください。"
+  },
+  "wine-bottle": {
+   "parts": {
+    "bottle": "glass-bottle",
+    "cork": "burnable"
+   },
+   "prepJa": [
+    "中をすすぐ",
+    "缶とは別の中身の見える袋に入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "びん（酒類）　資源／コルク栓　可燃ごみ"
+  },
+  "jam-jar": {
+   "parts": {
+    "jar": "glass-bottle",
+    "lid": "nonburnable"
+   },
+   "prepJa": [
+    "中をすすぐ（油などで汚れが落ちないびんは不燃ごみ）"
+   ],
+   "noteJa": "びんは区の一覧に記載あり。金属のふたは「小型の金属類＝不燃ごみ」からの判断",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "びん（飲食料用）資源。不燃ごみ「小型の金属類」"
+  },
+  "cosmetics-glass-bottle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "化粧品のびん　不燃ごみ　資源になりません。"
+  },
+  "medicine-glass-bottle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "薬のびんは不燃ごみ。栄養ドリンクなど飲料のびんは飲食料用びんとして資源（びん）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "薬のビン　不燃ごみ　資源になりません。"
+  },
+  "aluminium-can": {
+   "category": "can",
+   "prepJa": [
+    "中をすすぐ",
+    "びんとは別の中身の見える袋に入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "アルミ缶（飲食料用）　資源"
+  },
+  "steel-can": {
+   "category": "can",
+   "prepJa": [
+    "中をすすぐ",
+    "びんとは別の中身の見える袋に入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "カン　飲食料用アルミ缶・スチール缶　中をすすぎ、中身の見える袋に入れて出してください。"
+  },
+  "food-can": {
+   "category": "can",
+   "prepJa": [
+    "中身を出してすすぐ"
+   ],
+   "noteJa": "油の缶・汚れた缶は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "缶詰（中身のないきれいなもの）　資源　油の缶、汚れた缶は不燃ごみです。"
+  },
+  "cookie-tin": {
+   "category": "can",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "お菓子・お茶の缶　資源／海苔の缶　資源"
+  },
+  "spray-can": {
+   "category": "spray-can",
+   "prepJa": [
+    "中身を使い切る",
+    "びん・缶とは別の袋に入れる"
+   ],
+   "noteJa": "中身が残っているものは別の袋にし「中身が入っています」と表示（または清掃事務所に相談）。塗料のスプレー缶は不燃ごみ（英語版パンフレット）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "スプレー缶　資源　必ず使い切ってから、びんと缶とは別の袋に入れて出してください。"
+  },
+  "cassette-gas-can": {
+   "category": "spray-can",
+   "prepJa": [
+    "中身を使い切る",
+    "びん・缶とは別の袋に入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "カセットボンベ　資源　危険ですので、使い切ってから、びんと缶とは別の袋に入れて出してください。"
+  },
+  "metal-bottle-cap": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "不燃ごみ「小型の金属類　かさ、フライパン、やかんなど」"
+  },
+  "milk-carton": {
+   "category": "carton",
+   "prepJa": [
+    "水でよく洗って切り開く",
+    "乾かしてひもで縛る"
+   ],
+   "noteJa": "集積所に出す場合は可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "牛乳パック　拠点回収または可燃ごみ　区内の施設で拠点回収を行なっています。集積所に出す場合は可燃ごみで出してください。"
+  },
+  "aluminium-lined-carton": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に「内側がアルミ」の記載はなく、アルミ付きの酒パックが可燃ごみとされていることからの判断",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "酒パック　可燃ごみ"
+  },
+  "cardboard": {
+   "category": "paper",
+   "prepJa": [
+    "段ボールだけでひもで縛る"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ダンボール　資源　ダンボールのみで束ねて出してください。"
+  },
+  "pizza-box": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "汚れていない部分は段ボール・雑がみとして資源にできる場合がある（区の資料に明記なし）",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "紙くず　可燃ごみ（区の一覧）。資源の古紙は「ひもで縛って」出すもので、汚れた紙は対象外と明記はない"
+  },
+  "newspaper": {
+   "category": "paper",
+   "prepJa": [
+    "ひもで縛る（折込チラシは一緒でよい）"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "新聞　資源／ちらし（新聞折込）　資源　新聞と一緒に束ねて出してください。"
+  },
+  "magazines": {
+   "category": "paper",
+   "prepJa": [
+    "ひもで縛る"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "雑誌　雑誌・本・パンフレットなど　ひもで縛ってください。"
+  },
+  "books": {
+   "category": "paper",
+   "prepJa": [
+    "雑誌と一緒にひもで縛る"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "本　資源　雑誌と一緒に束ねて出してください。"
+  },
+  "paper-bag": {
+   "category": "paper",
+   "prepJa": [
+    "雑誌と一緒にひもで縛る",
+    "持ち手のひもなど紙以外は取り除く"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "雑紙類（包装紙・紙袋・コピー用紙）　資源　雑誌と一緒に束ねて出してください。"
+  },
+  "cereal-box": {
+   "parts": {
+    "box": "paper",
+    "film window": "plastic"
+   },
+   "prepJa": [
+    "フィルムなど紙以外の部分を取り除く",
+    "箱はたたんで雑誌と一緒に縛る"
+   ],
+   "noteJa": "においの強い箱（洗剤・化粧品など）は可燃ごみ。フィルムをプラスチックに出すのは区のプラスチック分別ルールからの判断",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "空き箱（紙製）　資源　のり付けされていたものやビニールコート紙（材質）、化粧品の箱は可燃ごみになります。／雑がみ：テープやフィルム、金具など紙以外の部分を取り除いてください。"
+  },
+  "toilet-paper-core": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+   "ruleQuoteJa": "窓付き封筒、感熱紙、ノーカーボン紙、写真、紙コップ、ビニールコート紙、化粧品の空箱、卵の紙ケース、トイレットペーパーの芯、ラップの芯などは、可燃ごみです。"
+  },
+  "envelope": {
+   "parts": {
+    "envelope": "paper",
+    "plastic window": "plastic"
+   },
+   "prepJa": [
+    "プラスチックの窓部分を切り取る",
+    "雑誌と一緒に縛る"
+   ],
+   "noteJa": "切り取った窓をプラスチックに出すのは区のプラスチック分別ルールからの判断",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "封筒（窓付き）　資源　窓の部分がプラスチック製の場合はその部分を切り取って、雑誌と一緒に束ねて出してください。"
+  },
+  "wrapping-paper": {
+   "category": "paper",
+   "prepJa": [
+    "雑誌と一緒に縛る"
+   ],
+   "noteJa": "ビニールコート紙・金色銀色の紙は可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "包装紙　資源　雑誌と一緒に束ねて出してください。"
+  },
+  "receipt": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "感熱紙　可燃ごみ"
+  },
+  "shredded-paper": {
+   "category": "unlisted",
+   "prepJa": [],
+   "noteJa": "区の一覧・古紙のページに記載がなく、資源か可燃ごみか判断できない。清掃事務所に確認",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/koshi.html",
+   "ruleQuoteJa": "（記載なし）"
+  },
+  "photographs": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "写真　可燃ごみ"
+  },
+  "used-tissue": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ティッシュペーパー　可燃ごみ"
+  },
+  "paper-towel": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙くず　可燃ごみ"
+  },
+  "dirty-paper": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙くず　可燃ごみ"
+  },
+  "broken-glass": {
+   "category": "nonburnable",
+   "prepJa": [
+    "新聞紙などに包み「キケン」と表示"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ガラスびん（割れたびんなど）　不燃ごみ　新聞紙などに包んで「キケン」の表示をして出して下さい。"
+  },
+  "drinking-glass": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "再使用できるものは区の食器・調理器具回収（本町リサイクルセンター・清掃事務所）にも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "食器（陶磁器製・ガラス製）　不燃ごみ"
+  },
+  "ceramic-dish": {
+   "category": "nonburnable",
+   "prepJa": [
+    "割れたものは新聞紙などに包み「危険」と表示"
+   ],
+   "noteJa": "再使用できるものは区の食器・調理器具回収にも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "食器（陶磁器製・ガラス製）　不燃ごみ"
+  },
+  "heat-resistant-glass": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "耐熱ガラスはびん資源の対象外（英語版パンフレット）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ガラス製品　不燃ごみ　新聞紙などに包んで「キケン」の表示をして出して下さい。"
+  },
+  "mirror": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "鏡　不燃ごみ　30センチメートル角以上のものは粗大ごみへ。"
+  },
+  "light-bulb": {
+   "category": "nonburnable",
+   "prepJa": [
+    "購入時の包装ケースなどに入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "電球　不燃ごみ　水銀を含まない白熱電球・LED電球などは不燃ごみで出してください。"
+  },
+  "led-bulb": {
+   "category": "nonburnable",
+   "prepJa": [
+    "購入時の包装ケースなどに入れる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "電球　不燃ごみ　水銀を含まない白熱電球・LED電球などは不燃ごみで出してください。"
+  },
+  "fluorescent-tube": {
+   "category": "fluorescent",
+   "prepJa": [
+    "購入時のケースに入れるか紙に包み、割れないようにする"
+   ],
+   "noteJa": "割れた蛍光管は不燃ごみ。LED蛍光管は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "蛍光管　資源　蛍光管（環型・電球型・直管型など）は「資源」として回収します。割れないように購入時のケースなどに入れて出してください。"
+  },
+  "frying-pan": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "再使用できるものは区の食器・調理器具回収にも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "フライパン　不燃ごみ"
+  },
+  "pot": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "再使用できるものは区の食器・調理器具回収にも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "鍋　不燃ごみ"
+  },
+  "kettle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "やかん　不燃ごみ"
+  },
+  "kitchen-knife": {
+   "category": "nonburnable",
+   "prepJa": [
+    "ケース・新聞紙などに包み「キケン」と表示"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "包丁　不燃ごみ　ケース・新聞紙などに包んで「キケン」の表示をして出してください。"
+  },
+  "scissors": {
+   "category": "nonburnable",
+   "prepJa": [
+    "新聞紙などに包み「危険」と表示"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "小型の刃物類　はさみ、包丁など　新聞紙などに包んで「危険」と表示してください。"
+  },
+  "metal-cutlery": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "再使用できるものは区の食器・調理器具回収にも出せる",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "不燃ごみ「小型の金属類　かさ、フライパン、やかんなど」"
+  },
+  "disposable-cutlery": {
+   "category": "plastic",
+   "prepJa": [
+    "汚れを落とす"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「台所用品（保存容器、スポンジ、スプーン、ストローなど）」"
+  },
+  "plastic-straw": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ストロー　可燃ごみ　プラスチック製のストローは資源で出してください。"
+  },
+  "wire-hanger": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ハンガー（金属製）　不燃ごみ"
+  },
+  "plastic-hanger": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "フック部分が金属でもそのままプラスチックに出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ハンガー（木製・プラスチック製）　可燃ごみ　プラスチック製のものは資源で出してください。"
+  },
+  "umbrella": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "ビニール傘もプラスチックではなく不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "傘　不燃ごみ"
+  },
+  "razor": {
+   "category": "nonburnable",
+   "prepJa": [
+    "新聞紙などに包み「キケン」と表示"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "カミソリ刃　不燃ごみ　新聞紙などに包んで「キケン」の表示をして出して下さい。"
+  },
+  "nails-screws": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "不燃ごみ「小型の金属類　かさ、フライパン、やかんなど」"
+  },
+  "dry-cell-battery": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "乾電池（アルカリ・マンガン）　不燃ごみ　充電式・ボタン電池は販売店の回収ボックスへ。"
+  },
+  "button-battery": {
+   "category": "store-takeback",
+   "prepJa": [
+    "端子をセロハンテープで絶縁",
+    "販売店のボタン電池回収缶へ"
+   ],
+   "noteJa": "コイン型リチウム電池（CR・BR型）は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ボタン電池　区では収集しません。販売店の回収ボックスへ。"
+  },
+  "rechargeable-battery": {
+   "category": "store-takeback",
+   "prepJa": [
+    "端子をセロハンテープで絶縁"
+   ],
+   "noteJa": "JBRC回収協力店（家電量販店など）か区の回収拠点（清掃事務所・宇田川分室など）へ。膨張・破損したものも区の回収拠点で受け付ける",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "小型充電式電池（リチウムイオン電池・ニカド電池・ニッケル水素電池）　拠点回収　メーカーや販売店などに処理を依頼、または区回収拠点の窓口までお持ちこみください。"
+  },
+  "mobile-battery": {
+   "category": "store-takeback",
+   "prepJa": [
+    "端子をセロハンテープで絶縁"
+   ],
+   "noteJa": "集積所には出さない（清掃車火災の原因）。JBRC回収協力店か区の回収拠点へ。小型家電回収ボックスには入れない",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "モバイルバッテリー　拠点回収　メーカーや販売店などに処理を依頼、または区回収拠点の窓口までお持ちこみください。"
+  },
+  "disposable-lighter": {
+   "category": "nonburnable",
+   "prepJa": [
+    "必ず中身を使い切る",
+    "ライターだけ別の透明な袋に入れ「キケン」と表示"
+   ],
+   "noteJa": "使い切れないものは清掃事務所に相談",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ライター　不燃ごみ　必ず使い切ってから別の袋に入れて「キケン」と表示して出してください。"
+  },
+  "matches": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "区の「区で収集できないもの」に記載。販売店などに相談",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/shushu_no.html",
+   "ruleQuoteJa": "有害性のあるもの、危険性のあるもの…ガスボンベ類、石油類、工業製品、未使用の花火、塗料、印刷用インク、マッチ、現像液など"
+  },
+  "mercury-thermometer": {
+   "category": "contact-office",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "体温計（水銀使用のもの）　個別　清掃事務所に連絡してください。／血圧計（水銀使用のもの）　個別　清掃事務所に連絡してください。"
+  },
+  "paint": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "中身がない・固まった塗料缶は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "塗料　区では収集しません。販売元や専門業者に依頼してください。"
+  },
+  "medicine": {
+   "category": "unlisted",
+   "prepJa": [],
+   "noteJa": "薬そのものは区の一覧に記載なし（「区で収集できないもの」の薬品類は工業用の意か不明）。薬のシートは可燃ごみ（プラ製は資源）、薬のびんは不燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "（記載なし）"
+  },
+  "insulin-needle": {
+   "category": "store-takeback",
+   "prepJa": [
+    "薬局でもらう回収容器に入れる"
+   ],
+   "noteJa": "集積所には出さない（プラスチックにも入れない）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_chusha.html",
+   "ruleQuoteJa": "「使用済み注射針回収薬局」において…回収容器をもらいます。回収容器が使用済みの注射針でいっぱいになったら注射針を購入した「使用済み注射針回収薬局」に持ち込みます。"
+  },
+  "mobile-phone": {
+   "category": "small-appliance",
+   "prepJa": [
+    "個人情報を消去する",
+    "電池を外せるものは外す"
+   ],
+   "noteJa": "集積所に出す場合は不燃ごみ。携帯電話会社のショップでも回収",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "スマートフォン／携帯電話　拠点回収または不燃ごみ　区内の施設で拠点回収を行なっています。集積所に出す場合は不燃ごみで出してください。"
+  },
+  "laptop": {
+   "category": "pc-recycling",
+   "prepJa": [
+    "データを消去する"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "パソコン　区では収集しません。"
+  },
+  "computer-monitor": {
+   "category": "pc-recycling",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pc.html",
+   "ruleQuoteJa": "家庭で不用になったパソコン、パソコン用ディスプレイを処分する場合は、パソコンメーカーによる回収／宅配便による回収のいずれかの方法をご利用ください。区では回収していません"
+  },
+  "hair-dryer": {
+   "category": "small-appliance",
+   "prepJa": [],
+   "noteJa": "集積所に出す場合は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "ruleQuoteJa": "回収品目（例）…ドライヤー"
+  },
+  "electric-shaver": {
+   "category": "small-appliance",
+   "prepJa": [
+    "充電式電池を外せるものは外す"
+   ],
+   "noteJa": "集積所に出す場合は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "ruleQuoteJa": "回収品目（例）…電気かみそり"
+  },
+  "electric-toothbrush": {
+   "category": "small-appliance",
+   "prepJa": [
+    "電池を外す（外せない場合は電池が膨張・破損していないものに限る）"
+   ],
+   "noteJa": "集積所に出す場合は不燃ごみ。充電式電池を外した場合は電池を販売店などへ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "ruleQuoteJa": "回収ボックスに投入してください。投入口（13センチメートル×28センチメートル）に入る小型家電製品が対象です。"
+  },
+  "iron": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ（400円）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "アイロン　不燃ごみ　30センチメートル角以上のものは粗大ごみへ"
+  },
+  "toaster": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "トースター　不燃ごみ　30センチメートル角以上のものは粗大ごみで出してください。"
+  },
+  "rice-cooker": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。一辺30cm以下のものは不燃ごみ（一般ルールからの判断）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "炊飯器（類似品：炊飯ジャー、ジャー、電気釜）　400円"
+  },
+  "electric-kettle": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ポット　不燃ごみ　30センチメートル角以上のものは粗大ごみで出してください。"
+  },
+  "microwave": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "電子レンジ　400円"
+  },
+  "vacuum-cleaner": {
+   "category": "oversized",
+   "prepJa": [
+    "充電式電池は外す"
+   ],
+   "noteJa": "手数料400円（ロボット掃除機も同じ）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "掃除機　粗大ごみ"
+  },
+  "earphones": {
+   "category": "small-appliance",
+   "prepJa": [],
+   "noteJa": "集積所に出す場合は不燃ごみ。ワイヤレスで充電式電池内蔵のものは電池が膨張・破損していないものに限る",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "ruleQuoteJa": "回収ボックスに投入してください。投入口（13センチメートル×28センチメートル）に入る小型家電製品が対象です。（回収品目（例）に携帯音楽プレーヤー、ACアダプター・ケーブルなどの付属品）"
+  },
+  "game-console": {
+   "category": "small-appliance",
+   "prepJa": [],
+   "noteJa": "携帯ゲーム機の記載。据え置き機で投入口（13×28cm）に入らないものは不燃ごみ、30cm角超は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "携帯ゲーム機器　拠点回収または不燃ごみ　区内の施設で拠点回収を行なっています。集積所に出す場合は不燃ごみで出してください。"
+  },
+  "digital-camera": {
+   "category": "small-appliance",
+   "prepJa": [
+    "電池類は必ず外す"
+   ],
+   "noteJa": "集積所に出す場合は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "デジタルカメラ　拠点回収または不燃ごみ　…電池類は必ず外してください。"
+  },
+  "electric-cord": {
+   "category": "nonburnable",
+   "prepJa": [
+    "長いものは束ねるか切る"
+   ],
+   "noteJa": "小型家電の付属品のケーブル・ACアダプターは小型家電回収ボックスにも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "延長コード　不燃ごみ　長いものは束ねるか裁断して下さい。"
+  },
+  "remote-control": {
+   "category": "small-appliance",
+   "prepJa": [
+    "電池を外す"
+   ],
+   "noteJa": "集積所に出す場合は不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html",
+   "ruleQuoteJa": "回収品目（例）…リモコン"
+  },
+  "heated-tobacco-device": {
+   "category": "store-takeback",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし。小型充電式電池内蔵品としての判断。メーカーの回収も確認",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/other.html",
+   "ruleQuoteJa": "各回収拠点で回収している電池：リチウムイオン電池…小型のリチウムイオン電池内蔵品、モバイルバッテリー　「小型充電式電池リサイクルBOX」に投函、または、渋谷区の各回収拠点までお持ちください。"
+  },
+  "electric-fan": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "扇風機　400円"
+  },
+  "heater": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "ファンヒーター・温風ヒーター・オイルヒーター900円、それ以外のストーブ400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "ストーブ（ファンヒーター）類似品：ヒーター　900円／ストーブ（ファンヒーターを除く）　400円"
+  },
+  "kerosene-heater": {
+   "category": "oversized",
+   "prepJa": [
+    "灯油を抜き切る（灯油は区で収集しない）",
+    "電池を外す"
+   ],
+   "noteJa": "手数料400円（ファンヒーターは900円）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "ストーブ（ファンヒーターを除く）　400円。灯油　区では収集しません。"
+  },
+  "tv": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "テレビ　区では収集しません。家電のページをご覧ください。"
+  },
+  "refrigerator": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "冷蔵庫　区では収集しません。家電のページをご覧ください。"
+  },
+  "washing-machine": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "洗濯機／衣類乾燥機　区では収集しません。家電のページをご覧ください。"
+  },
+  "air-conditioner": {
+   "category": "appliance-recycling",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "エアコン　区では収集しません。家電のページをご覧ください。"
+  },
+  "futon": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円。区の衣類回収では寝具は回収しない",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "布団　粗大ごみ（品目手数料一覧：布団　400円）"
+  },
+  "mattress": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "薄手・折り畳めるマットレス400円、ベッドマット1,300円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "マットレス(軽量・薄手のもの、折り畳めるもの）400円　（注）これ以外はベッドマット／ベッドマット　1,300円"
+  },
+  "bed-frame": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "シングル1,300円、セミダブル・ダブル・二段ベッド2,300円（ベッドマットは別料金）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "シングルベッド（ベッドマットを除く）1,300円／セミダブルベッド　2,300円／ダブルベッド　2,300円"
+  },
+  "chair": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円（ソファーを除く）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "いす（ソファーを除く）　400円"
+  },
+  "desk": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料1,300円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "机（類似品：勉強机、学習机、パソコンデスクなど）　1,300円"
+  },
+  "bookshelf": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "幅＋高さの合計で400円〜（135cm以下400円、180cm以下900円、270cm以下1,300円）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "箱物家具 サイズA（幅および高さの合計が135cm以下のもの）類似品：…書棚…本棚　400円"
+  },
+  "sofa": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "1人掛け900円、3人掛け以上・L型2,300円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "ソファー（1人掛け）900円／ソファー（3人掛け以上のもの・L型）2,300円"
+  },
+  "carpet": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "一畳以下400円、一畳を超えるもの900円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "カーペット　粗大ごみ（品目手数料一覧：敷物・ホットカーペット（一畳以下）400円、（一畳を超える）900円）"
+  },
+  "bicycle": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "16インチ未満400円、16インチ以上900円。まだ乗れる14インチ以上の自転車は区の自転車集積所で無料引き取り（電動アシスト付は対象外）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "自転車　粗大ごみ／自転車（まだ乗れるもの）　拠点回収"
+  },
+  "suitcase": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "スーツケース　粗大ごみ"
+  },
+  "plastic-storage-case": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "一段もの400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "衣装ケース　粗大ごみ"
+  },
+  "ironing-board": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "アイロン台　400円"
+  },
+  "curtains": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし。布製品として可燃ごみと判断（衣類回収の対象品目にはない）。カーテンレールは粗大ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "可燃ごみ「衣類　洋服、着物など（ポリエステル、ナイロンなどを含む）」"
+  },
+  "toothbrush": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "歯ブラシ　可燃ごみ"
+  },
+  "toothpaste-tube": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "中身が落とせないものは可燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「ボトル類（シャンプー・洗剤のボトル、食品チューブなど）」。（注1）水ですすいでも汚れが落ちないものは…可燃ごみ"
+  },
+  "shampoo-bottle": {
+   "parts": {
+    "bottle": "plastic",
+    "pump": "plastic"
+   },
+   "prepJa": [
+    "中をすすぐ"
+   ],
+   "noteJa": "ボトルは区の資料に例示あり。ポンプは金属ばねを含むが、半分以上がプラスチックなら製品プラスチックとして回収（区の基準からの判断）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「ボトル類（シャンプー・洗剤のボトル…）」／製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。"
+  },
+  "refill-pouch": {
+   "category": "plastic",
+   "prepJa": [
+    "中をすすぐ"
+   ],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「袋類（菓子袋・レトルト食品の包装、レジ袋、パンの包装など）」"
+  },
+  "bucket": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "30cm角を超えるものは粗大ごみ（バケツ400円）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「その他（バケツ、CD、DVD、カセットテープなど）」"
+  },
+  "plastic-toy": {
+   "category": "plastic",
+   "prepJa": [
+    "電池を外す（外せない場合は不燃ごみ）"
+   ],
+   "noteJa": "30cm角を超えるものは粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「おもちゃ（プラスチック製のもの）（注）電池は取り外してから出してください。取り外せない場合は不燃ごみとして出してください。」"
+  },
+  "stuffed-toy": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ。きれいなものは区の衣類回収ボックスにも出せる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ぬいぐるみ　可燃ごみ　30センチメートル角以上のものは粗大ごみで出してください。"
+  },
+  "ballpoint-pen": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "金属製のボールペンは不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ボールペン（プラスチック製）　資源／ボールペン（金属製）　不燃ごみ"
+  },
+  "clear-file": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「文具類（定規・ボールペンなど）」"
+  },
+  "cd-dvd": {
+   "parts": {
+    "disc": "plastic",
+    "case": "plastic"
+   },
+   "prepJa": [],
+   "noteJa": "ケースは「製品プラスチック」の基準からの判断",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "CD　資源／DVD　資源（区の一覧）。製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。"
+  },
+  "video-tape": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ビデオテープ　資源／カセットテープ　資源"
+  },
+  "rubber-gloves": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "ゴム製は可燃ごみ。ビニール（プラスチック）製の手袋は区の基準ではプラスチック（汚れが落ちなければ可燃ごみ）",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ゴム製品　可燃ごみ"
+  },
+  "sponge": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "汚れが落ちなければ可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「台所用品（保存容器、スポンジ、スプーン、ストローなど）」"
+  },
+  "cutting-board": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "30cm角を超えるものは粗大ごみ。再使用できるものは区の食器・調理器具回収にも出せる",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。"
+  },
+  "styrofoam-packaging": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "箱型はそのままでも出せるが「資源」と明記するか袋に入れる。30cm程度にすれば回収できる",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "発泡スチロール　資源"
+  },
+  "bubble-wrap": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「緩衝材・発泡スチロール類（果物やワインボトルの緩衝材など）」"
+  },
+  "plastic-cosmetics-container": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "すすいでも汚れが落ちなければ可燃ごみ。化粧品のびん（ガラス）は不燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "容器包装プラスチック「ボトル類…」。（注1）水ですすいでも汚れが落ちないものは…可燃ごみ"
+  },
+  "plastic-plant-pot": {
+   "category": "plastic",
+   "prepJa": [
+    "植物・土・砂利を取り除く"
+   ],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "植木鉢（プラスチック製）　資源　植物、土、砂利は取り除いてください。30センチメートル角以上のものは粗大ごみへ。"
+  },
+  "ceramic-plant-pot": {
+   "category": "nonburnable",
+   "prepJa": [
+    "植物・土・砂利を取り除く"
+   ],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "植木鉢（陶磁器製）　不燃ごみ　植物、土、砂利は取り除いてください。30センチメートル角以上のものは粗大ごみへ。"
+  },
+  "soil": {
+   "category": "not-collected",
+   "prepJa": [],
+   "noteJa": "販売元か清掃事務所に相談",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "土　区では収集しません。販売元、もしくは清掃事務所に相談してください。／砂　区では収集しません。"
+  },
+  "clothes": {
+   "category": "ward-dropoff",
+   "prepJa": [
+    "洗濯したものをビニール袋か紙袋に入れて区施設の衣類リサイクルボックスへ"
+   ],
+   "noteJa": "集積所に出す場合は可燃ごみ。汚れ・破損した衣類は回収ボックス不可",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "衣類　拠点回収または可燃ごみ　区内の施設で拠点回収を行なっています。集積所に出す場合は可燃ごみで出してください。"
+  },
+  "shoes": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "左右そろった靴（革靴・スニーカー・サンダル）は区の衣類回収ボックスにも出せる（長靴・ブーツ・ヒール靴は不可）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "靴　可燃ごみ"
+  },
+  "bag": {
+   "category": "burnable",
+   "prepJa": [
+    "金属部分はできるだけ外して不燃ごみへ"
+   ],
+   "noteJa": "30cm角以上は粗大ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "皮革類　革靴、かばんなど　金属部分はできるだけはずして不燃ごみへ出してください。"
+  },
+  "belt": {
+   "category": "burnable",
+   "prepJa": [
+    "金属のバックルはできるだけ外して不燃ごみへ"
+   ],
+   "noteJa": "区の衣類回収ボックスにも出せる",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "皮革類　革靴、かばんなど　金属部分はできるだけはずして不燃ごみへ出してください。"
+  },
+  "towels": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ぞうきん　可燃ごみ"
+  },
+  "diapers": {
+   "category": "burnable",
+   "prepJa": [
+    "汚物は取り除く"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙おむつ　可燃ごみ　汚物は取り除いてください。"
+  },
+  "sanitary-pads": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "生理用品　可燃ごみ"
+  },
+  "cat-litter": {
+   "category": "unlisted",
+   "prepJa": [],
+   "noteJa": "猫砂・ペットシーツは区の一覧に記載なし（素材により異なる可能性）。ペットのふんはトイレに流す",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "（記載なし）"
+  },
+  "pet-waste": {
+   "category": "toilet",
+   "prepJa": [],
+   "noteJa": "トイレに流す",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ペットのふん　区では収集しません。トイレに流してください。"
+  },
+  "cigarette-butts": {
+   "category": "burnable",
+   "prepJa": [
+    "火が消えていることを確かめる"
+   ],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "紙ごみ　紙くず、紙おむつ、吸殻など"
+  },
+  "wood-scraps": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "太さ10cm・長さ50cm以下。多量の場合は清掃事務所へ（有料の場合あり）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "木の枝、木くず　可燃ごみ　太さ10センチメートル、長さ50センチメートル以下まで。"
+  },
+  "branches": {
+   "category": "burnable",
+   "prepJa": [
+    "概ね50cm未満に切ってひもで束ねる"
+   ],
+   "noteJa": "太さ10cmまで。多量は有料",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "木の枝、木くず　可燃ごみ　太さ10センチメートル、長さ50センチメートル以下まで。多量の場合は清掃事務所に連絡してください。"
+  },
+  "fallen-leaves": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "多量の場合は清掃事務所へ（有料の場合あり）",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "落ち葉　可燃ごみ　多量の場合は清掃事務所に連絡してください。有料になる場合があります。"
+  },
+  "cut-flowers": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "木の枝・落ち葉　木の枝、落ち葉、草花など"
+  },
+  "candle": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "可燃ごみの分け方（生ごみ・紙ごみ・衣類・木の枝・ゴム類・皮革類）からの判断"
+  },
+  "face-mask": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html",
+   "ruleQuoteJa": "可燃ごみ「紙ごみ　紙くず、紙おむつ、吸殻など」"
+  },
+  "hand-warmer": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "カイロ（使い捨て）　不燃ごみ"
+  },
+  "desiccant": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "乾燥剤　可燃ごみ／保冷剤　可燃ごみ"
+  },
+  "wet-wipes": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙くず　可燃ごみ"
+  },
+  "cotton-swab": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "紙くず　可燃ごみ"
+  },
+  "rubber-band": {
+   "category": "burnable",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "輪ゴム　可燃ごみ"
+  },
+  "leather-goods": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "30cm角以上は粗大ごみ。金属部分はできるだけ外して不燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "革製品　可燃ごみ　30センチメートル角以上のものは粗大ごみへ。"
+  },
+  "fire-extinguisher": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "消火器　区では収集しません。専門業者に依頼してください。"
+  },
+  "car-tire": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "タイヤ　区では収集しません。販売店や専門業者に依頼してください。"
+  },
+  "car-battery": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "自動車やバイクのバッテリー　区で収集できないもの　メーカーや販売店に処理を依頼してください。"
+  },
+  "motorcycle": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "オートバイ　区では収集しません。販売店や専門業者に依頼してください。"
+  },
+  "piano": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "ピアノ　区では収集しません。販売店や専門業者に依頼してください。"
+  },
+  "gas-cylinder": {
+   "category": "not-collected",
+   "prepJa": [],
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "プロパンガスボンベ　区では収集しません。販売店や専門業者に依頼してください。"
+  },
+  "umbrella-stand": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "傘立て　400円"
+  },
+  "cushion": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "クッション・座布団（5枚まで）400円。30cm角未満のクッションは可燃ごみ",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "クッション　可燃ごみ　30センチメートル角以上のものは粗大ごみへ。／座布団　粗大ごみ"
+  },
+  "plastic-file-box": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "30cm角を超えるものは粗大ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。（注2）30センチメートル角を超えるものは粗大ごみになります。"
+  },
+  "helmet": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "手数料400円",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "ヘルメット　400円"
+  },
+  "keyboard-mouse": {
+   "category": "oversized",
+   "prepJa": [],
+   "noteJa": "パソコン用キーボード400円。マウスなど30cm以下のものは不燃ごみ（小型家電回収ボックスも可、一般ルールからの判断）。パソコン購入時に同梱のものはパソコンと一緒にメーカー回収",
+   "explicit": true,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html",
+   "ruleQuoteJa": "キーボード（パソコン）　400円"
+  },
+  "smartphone-case": {
+   "category": "plastic",
+   "prepJa": [],
+   "noteJa": "革製は可燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。"
+  },
+  "contact-lens-case": {
+   "category": "plastic",
+   "prepJa": [],
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html",
+   "ruleQuoteJa": "製品プラスチック「容器包装プラスチック」、「ペットボトル」以外のプラスチックでできている製品。他の素材が含まれていても、半分以上がプラスチックであれば回収できます。"
+  },
+  "nail-polish": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし。中身は使い切る。びん（ガラス）としての判断",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "化粧品のびん　不燃ごみ　資源になりません。"
+  },
+  "cosmetic-pencil": {
+   "category": "burnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし。素材ごとに判断：中身が残り汚れが落ちないプラ容器は可燃ごみ、洗って汚れが落ちるプラ容器は資源（プラスチック）、ガラスびん・金属は不燃ごみ",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+   "ruleQuoteJa": "鉛筆　可燃ごみ。（注1）水ですすいでも汚れが落ちないものは再利用に適さないため、可燃ごみでお出しください。"
+  },
+  "glasses": {
+   "category": "nonburnable",
+   "prepJa": [],
+   "noteJa": "区の一覧に記載なし。金属・ガラスを含むため不燃ごみと判断",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "不燃ごみ「小型の金属類」「陶器・ガラス類」"
+  },
+  "watch": {
+   "category": "nonburnable",
+   "prepJa": [
+    "電池を外す（ボタン電池は販売店の回収缶へ）"
+   ],
+   "noteJa": "区の一覧に記載なし。金属製品として不燃ごみと判断",
+   "explicit": false,
+   "source": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html",
+   "ruleQuoteJa": "不燃ごみ「小型の金属類　かさ、フライパン、やかんなど」"
+  }
+ }
+}
