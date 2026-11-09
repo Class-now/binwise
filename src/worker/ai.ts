@@ -63,7 +63,8 @@ export function validateIdentified(parsed: unknown): IdentifiedItem[] | undefine
     if (!name) continue;
     out.push({ name_en: name, materials: cleanList(r.materials), parts: cleanList(r.parts) });
   }
-  return out;
+  // Nothing usable (empty list or wrong keys) counts as a failed reply so the strict retry runs.
+  return out.length > 0 ? out : undefined;
 }
 
 const IDENTIFY_PROMPT = `Identify the main object(s) in this photo that someone wants to throw away.

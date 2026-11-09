@@ -62,7 +62,9 @@ export function scoreAlias(query: string, alias: string): number {
   const a = compact(an);
   if (!q || !a) return 0;
   if (q === a) return 1;
-  if (a.length >= 2 && contains(qn, an)) return 0.75 + 0.2 * (a.length / q.length);
+  // The alias is part of a longer query ("battery" in "lithium battery"). Stay below CONFIDENT
+  // unless the alias covers nearly all of the query, so other candidates are still considered.
+  if (a.length >= 2 && contains(qn, an)) return 0.6 + 0.3 * (a.length / q.length);
   if (q.length >= 2 && contains(an, qn)) return 0.6 + 0.3 * (q.length / a.length);
   return 0.8 * dice(q, a);
 }

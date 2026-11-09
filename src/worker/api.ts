@@ -94,6 +94,31 @@ async function timed<T>(trace: Trace, step: string, model: string | undefined, f
 
 // ---- /api/identify ----
 
+/** Reads the request body, giving up (undefined) as soon as it exceeds `max` bytes. */
+async function readCapped(request: Request, max: number): Promise<Uint8Array<ArrayBuffer> | undefined> {
+  if (!request.body) return new Uint8Array();
+  const reader = request.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > max) {
+      await reader.cancel().catch(() => {});
+      return undefined;
+    }
+    chunks.push(value);
+  }
+  const out = new Uint8Array(total);
+  let offset = 0;
+  for (const c of chunks) {
+    out.set(c, offset);
+    offset += c.byteLength;
+  }
+  return out;
+}
+
 export async function handleIdentify(request: Request, ai: AiRunner | undefined): Promise<Response> {
   if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
   if (!ai) return json({ error: "ai_unavailable", message: "Photo identification needs Workers AI. Type the item name instead." }, 503);
@@ -101,17 +126,25 @@ export async function handleIdentify(request: Request, ai: AiRunner | undefined)
   if (declared > MAX_IMAGE_BYTES + 64 * 1024) return json({ error: "image_too_large", maxBytes: MAX_IMAGE_BYTES }, 413);
 
   const contentType = request.headers.get("content-type") ?? "";
+  // Read the body with a hard cap: Content-Length may be absent (chunked uploads).
+  const body = await readCapped(request, MAX_IMAGE_BYTES + 64 * 1024);
+  if (!body) return json({ error: "image_too_large", maxBytes: MAX_IMAGE_BYTES }, 413);
   let bytes: Uint8Array;
   let type: string;
   if (contentType.startsWith("multipart/form-data")) {
-    const form = await request.formData();
+    let form: FormData;
+    try {
+      form = await new Response(body, { headers: { "content-type": contentType } }).formData();
+    } catch {
+      return json({ error: "image_missing" }, 400);
+    }
     const file = form.get("image");
     if (!file || typeof file === "string") return json({ error: "image_missing" }, 400);
     type = file.type;
     bytes = new Uint8Array(await file.arrayBuffer());
   } else {
     type = contentType.split(";")[0]!.trim();
-    bytes = new Uint8Array(await request.arrayBuffer());
+    bytes = body;
   }
   if (!IMAGE_TYPES.includes(type)) return json({ error: "unsupported_image_type", accepted: IMAGE_TYPES }, 415);
   if (bytes.byteLength === 0) return json({ error: "image_missing" }, 400);

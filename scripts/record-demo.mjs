@@ -4,11 +4,11 @@
 // and <outDir>/marks.json: [{ t, scene, caption }] with t in seconds from the start of the video,
 // so the narration in docs/submission/video-script.md can be aligned with each scene.
 
-import { spawn } from "node:child_process";
 import { mkdirSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
+import { startServer, stopServer } from "./dev-server.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const base = process.argv[2] ?? "http://localhost:8798";
@@ -23,24 +23,6 @@ async function up() {
   }
 }
 
-async function startServer() {
-  if (await up()) return undefined;
-  const port = new URL(base).port || "8798";
-  const child = spawn("npx", ["wrangler", "dev", "-c", "wrangler.offline.jsonc", "--port", port], {
-    cwd: root,
-    stdio: ["ignore", "pipe", "pipe"],
-    detached: true,
-  });
-  let log = "";
-  child.stdout.on("data", (d) => (log += d));
-  child.stderr.on("data", (d) => (log += d));
-  for (let i = 0; i < 120; i++) {
-    if (await up()) return child;
-    await new Promise((r) => setTimeout(r, 500));
-  }
-  process.kill(-child.pid);
-  throw new Error(`dev server did not start:\n${log.slice(-2000)}`);
-}
 
 // Caption bar drawn over the page; re-created after any navigation.
 function showCaption(text) {
@@ -177,7 +159,7 @@ async function record() {
   console.log(`recorded ${duration}s, ${marks.length} scenes -> ${raw}`);
 }
 
-const server = await startServer();
+const server = await startServer(root, base);
 let failed = false;
 try {
   await record();
@@ -185,6 +167,6 @@ try {
   failed = true;
   console.error(`FAIL - ${err.message}`);
 } finally {
-  if (server) process.kill(-server.pid);
+  if (server) stopServer(server);
 }
 process.exit(failed ? 1 : 0);

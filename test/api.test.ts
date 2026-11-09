@@ -72,6 +72,17 @@ describe("POST /api/lookup", () => {
     expect(body.trace.matched[0]).toMatchObject({ itemId: "pet-bottle", score: 1 });
   });
 
+  it("does not treat a short alias inside a longer query as a confident match", async () => {
+    for (const query of ["lithium battery", "laptop battery", "battery pack", "smartphone battery"]) {
+      const body: any = await (await lookup(offline, { query, ward: "shibuya", language: "en" })).json();
+      const r = body.results[0];
+      expect(r.status, query).not.toBe("found");
+    }
+    const exact: any = await (await lookup(offline, { query: "lithium-ion battery", ward: "shibuya", language: "en" })).json();
+    expect(exact.results[0].status).toBe("found");
+    expect(exact.results[0].answer.id).toBe("rechargeable-battery");
+  });
+
   it("answers in Japanese from the Japanese dataset fields", async () => {
     const body: any = await (await lookup(offline, { query: "ペットボトル", ward: "shibuya", language: "ja" })).json();
     expect(body.results[0].answer.prep).toEqual(datasetItem("pet-bottle").prep.ja);
@@ -233,6 +244,34 @@ describe("POST /api/identify", () => {
   it("fails with 502 after two invalid answers", async () => {
     const ai = fakeAi({ [VISION_MODEL]: () => ({ response: "no idea" }) });
     expect((await identify(withAi(ai), jpeg)).status).toBe(502);
+  });
+
+  it("retries when the JSON has no usable items, then fails with 502", async () => {
+    const ai = fakeAi({
+      [VISION_MODEL]: (_input, n) => (n === 1 ? { response: '{"items":[]}' } : { response: '{"items":[{"name":"x"}]}' }),
+    });
+    const res = await identify(withAi(ai), jpeg);
+    expect(res.status).toBe(502);
+    expect(ai.calls.filter((c) => c.input.image)).toHaveLength(2);
+  });
+
+  it("rejects an oversized body sent without Content-Length", async () => {
+    const ai = fakeAi({});
+    const big = new Uint8Array(6 * 1024 * 1024);
+    const stream = new ReadableStream<Uint8Array>({
+      start(c) {
+        for (let i = 0; i < big.length; i += 1024 * 1024) c.enqueue(big.subarray(i, i + 1024 * 1024));
+        c.close();
+      },
+    });
+    const req = new Request("http://x/api/identify", {
+      method: "POST",
+      headers: { "content-type": "image/jpeg" },
+      body: stream,
+      duplex: "half",
+    } as RequestInit);
+    expect(req.headers.get("content-length")).toBeNull();
+    expect((await worker.fetch(req, withAi(ai))).status).toBe(413);
   });
 
   it("cleans injected text from item names", async () => {

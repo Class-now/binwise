@@ -3,11 +3,11 @@
 // Checks: setup → search "PET bottle" in Shibuya shows three part cards → a 10-item quiz completes.
 // Saves screenshots to docs/screenshots/ at 1280×800 and 390×844.
 
-import { spawn } from "node:child_process";
 import { mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
+import { startServer, stopServer } from "./dev-server.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const base = process.argv[2] ?? "http://localhost:8798";
@@ -23,24 +23,6 @@ async function up() {
   }
 }
 
-async function startServer() {
-  if (await up()) return undefined;
-  const port = new URL(base).port || "8798";
-  const child = spawn("npx", ["wrangler", "dev", "-c", "wrangler.offline.jsonc", "--port", port], {
-    cwd: root,
-    stdio: ["ignore", "pipe", "pipe"],
-    detached: true,
-  });
-  let log = "";
-  child.stdout.on("data", (d) => (log += d));
-  child.stderr.on("data", (d) => (log += d));
-  for (let i = 0; i < 120; i++) {
-    if (await up()) return child;
-    await new Promise((r) => setTimeout(r, 500));
-  }
-  process.kill(-child.pid);
-  throw new Error(`dev server did not start:\n${log.slice(-2000)}`);
-}
 
 function check(cond, message) {
   if (!cond) throw new Error(message);
@@ -95,10 +77,11 @@ async function run(browser, width, height) {
   await context.close();
 }
 
-const server = await startServer();
-const browser = await chromium.launch();
+const server = await startServer(root, base);
+let browser;
 let failed = false;
 try {
+  browser = await chromium.launch();
   await run(browser, 1280, 800);
   await run(browser, 390, 844);
   console.log(`screenshots in ${shots}`);
@@ -106,7 +89,7 @@ try {
   failed = true;
   console.error(`FAIL - ${err.message}`);
 } finally {
-  await browser.close();
-  if (server) process.kill(-server.pid);
+  await browser?.close();
+  if (server) stopServer(server);
 }
 process.exit(failed ? 1 : 0);
