@@ -73,7 +73,7 @@ Do NOT implement: wards other than these three.
 - `README.md`: what/why, live URL placeholder `https://binwise.<account>.workers.dev`, offline run, architecture (mermaid), data provenance, responsible AI (dataset-grounded answers, AI only identifies and translates), "Built with Llama" attribution, licences.
 - `docs/submission/devpost.md` (Inspiration, What it does, How we built it, Challenges, Accomplishments, What we learned, What's next, Theme paragraph). Honest; no invented personal stories (the author is a university student living alone in Shibuya — keep it at that).
 - `docs/submission/video-script.md` (2–3 min) and `scripts/record-demo.mjs` (Playwright headless 1280×720 recording with caption overlay, args base URL and out dir, outputs `demo-out/raw.webm` + `marks.json`).
-- [ ] docs complete, check-sources runs, record script produces a webm against the offline server
+- [x] docs complete, check-sources runs, record script produces a webm against the offline server
 
 ## Out of scope
 Accounts, server-side storage, wards beyond three, native apps, committing keys.

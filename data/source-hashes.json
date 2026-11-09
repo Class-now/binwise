@@ -1,0 +1,658 @@
+{
+ "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/24769e135c9341ea84eae07d27b7732d/assets_kurashi_000061365.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"a59e2419e88a956e82675407cf336f8e\"",
+  "lastModified": "Wed, 25 Jan 2023 15:08:46 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "b017a2a486430fbe0c72fdeefeb4795d52bab157d95f29cfa55cdd0d262c71e0"
+ },
+ "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/bfda2f5d763343b5a0b454087299d57f/2024wakedashiEnglish.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6babb07fae0fb36927e17df3e4af218f\"",
+  "lastModified": "Tue, 26 Mar 2024 01:23:35 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "ac4567308421bc3c55765e6b33230ac7ee6bb9334b258cb4ef7ab2e0475b160c"
+ },
+ "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/fb789c9d2e7e4694b94c25e8ee2f7465/assets_kurashi_000062893.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"bf158d0a0abb832889f4f1168693281b\"",
+  "lastModified": "Wed, 25 Jan 2023 15:09:44 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "7e9c0e83b9c99e52086677296e1ded69441772c59763ce9ebd4dac65deded955"
+ },
+ "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/fd90cdd3bf824a0092f4524fc6b9b966/assets_kurashi_000062895.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"1482f008061b1c15aa88238fd282ca83\"",
+  "lastModified": "Wed, 25 Jan 2023 15:09:47 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "49219056bd07a96bea17a2eae05574a345c6b2dc8bb2a7724eed5b0256d08b13"
+ },
+ "https://www.city.setagaya.lg.jp/02002/7723.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"5afb-64b3af5b1544e\"",
+  "lastModified": "Fri, 20 Feb 2026 05:47:42 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "e7b2294e9e100072b2e701118dcb818e4202557df125379b55dd8010b019874d"
+ },
+ "https://www.city.setagaya.lg.jp/02239/382.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"586d-6506dd5d536f6\"",
+  "lastModified": "Mon, 27 Apr 2026 09:35:29 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7eb547c8737cd43d023e4787d7a8d2fa1abe60bd67ed231603d6449c599e9b79"
+ },
+ "https://www.city.setagaya.lg.jp/02241/23967.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"5c6d-65cbc1b8f1294\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "047356b4ad9f74aaba0ea7f02e1b34f8755de3fa5a6b9bee308a18f47132a077"
+ },
+ "https://www.city.setagaya.lg.jp/02241/25227.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"851a-65ec96f5b3f67\"",
+  "lastModified": "Tue, 27 Oct 2026 02:45:09 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "246c4ff27f61255cc465b2614b881dd0c18a45bb17ed0180b743a02e1fb4b95b"
+ },
+ "https://www.city.setagaya.lg.jp/02241/27859.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"9cfa-65f4075170d2a\"",
+  "lastModified": "Mon, 02 Nov 2026 00:45:07 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "6de8f8d22915c6954c17f5ddb0572963d2d0219023ce2c066a7ea145a5d259cd"
+ },
+ "https://www.city.setagaya.lg.jp/02241/387.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"d51a-65dce35cdfff8\"",
+  "lastModified": "Wed, 14 Oct 2026 15:01:47 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "f5f590fcd60f064cc4df34050fefe7b416673db76a8d17a78a7d282b6d42df87"
+ },
+ "https://www.city.setagaya.lg.jp/02241/389.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"56db-65cbc1b8bfd86\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "f89a4b78471119010816b74a41c87886ce03517947df32350b20a57fef7b8559"
+ },
+ "https://www.city.setagaya.lg.jp/02241/392.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"5564-65cbc1b910693\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "0b167d5ab1caf4043eb719ad89e03b3684ae9ac4b4f2722391eeb48eb3f86f94"
+ },
+ "https://www.city.setagaya.lg.jp/02241/394.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"654a-65cbc1b8d8bf5\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "d2067a189d282b2796bce0e20bfa967f50e626020b38e928fb9917a05a10932d"
+ },
+ "https://www.city.setagaya.lg.jp/02241/395.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6c4f-65cbc1b949c89\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "fadffed74f4d01d209b4cba3efc0a6fd12e741916ae834c4d03e6fe49cf3a41b"
+ },
+ "https://www.city.setagaya.lg.jp/02241/396.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"7521-65dce35cca068\"",
+  "lastModified": "Wed, 14 Oct 2026 15:01:47 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "db97ee61e54b53cb69f04d1bc1fbbda1887652c6e59c1d1c3e6550f2cfc0592f"
+ },
+ "https://www.city.setagaya.lg.jp/02241/397.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6c43-65ded6899a7c3\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "a0538819e34303b1abe842d6d81e9158a8ccd3f9cf4d3b6caec40fc1aa8bcca3"
+ },
+ "https://www.city.setagaya.lg.jp/02241/398.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"59ff-65ded6896e8a5\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "053d4403932bd4da11435e5af05a41b2fa707c49dbe3747eef34ecb74ef89df1"
+ },
+ "https://www.city.setagaya.lg.jp/02241/399.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"5a3c-65ded6897698d\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "e70307bfe789fb4b5510b024dd5ff46e981ae79efc46ccd0665a781877765089"
+ },
+ "https://www.city.setagaya.lg.jp/02241/400.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"60c7-65ded6897ea74\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "baa6de0852a26831fad7faf9d553a5b07fa6ac39f0428770c92445e95279c8c6"
+ },
+ "https://www.city.setagaya.lg.jp/02241/401.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"90eb-65ded689926dc\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "e2ed55b1bc9bbaab5255109279187d43e757d378c22864fe53e4787eb96002b1"
+ },
+ "https://www.city.setagaya.lg.jp/02241/402.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6fb2-65ded689a2c93\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "6d885956408922c3a13daf0efa53088229ed309d260b337adaf3b9c825748a61"
+ },
+ "https://www.city.setagaya.lg.jp/02241/403.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"7b65-65ded68917238\"",
+  "lastModified": "Fri, 16 Oct 2026 04:15:03 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "2806399349c05d888fc07a75dc70fe7183835054743a2afbc9081919eab9f8ca"
+ },
+ "https://www.city.setagaya.lg.jp/02241/404.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"5428-65ec96f582a59\"",
+  "lastModified": "Tue, 27 Oct 2026 02:45:09 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7e99a451580bbac7b76d47104ddc5adc2f2b59723138edd434cc4f1c149d0204"
+ },
+ "https://www.city.setagaya.lg.jp/02241/407.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"b933-65dce35cf2107\"",
+  "lastModified": "Wed, 14 Oct 2026 15:01:47 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "613fd801120022fca598df82f6b5f1823038b2cf594de94137592d2ff78a4e18"
+ },
+ "https://www.city.setagaya.lg.jp/02241/409.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"548a-65dce35cf924f\"",
+  "lastModified": "Wed, 14 Oct 2026 15:01:47 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "fcc2e2e74ba909d9fa2da0024ae027ba6104ee5e36e9e269d1dbab1e3ea680fa"
+ },
+ "https://www.city.setagaya.lg.jp/02241/416.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"14fa4-65f2433fe97aa\"",
+  "lastModified": "Sat, 31 Oct 2026 15:02:36 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7d9f7709c98ad10db170fb0415f73ee6c50207b464d179606a51bdded8c0098a"
+ },
+ "https://www.city.setagaya.lg.jp/02241/487.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"4d27-64e53a5dcdd73\"",
+  "lastModified": "Tue, 31 Mar 2026 15:30:32 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "500144cffa022a2e7d15a0335c7e68ce63949564f4261e6cc8487191e2112a8c"
+ },
+ "https://www.city.setagaya.lg.jp/02241/online_tetsuzuki/380.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"8956-652b1ff1a360b\"",
+  "lastModified": "Tue, 26 May 2026 05:45:02 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "126d287f454689656e5367e84980b8251345f7e5f78dbddbd6b6145ae8aabf59"
+ },
+ "https://www.city.setagaya.lg.jp/02241/online_tetsuzuki/381.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6839-656282c7681fd\"",
+  "lastModified": "Thu, 09 Jul 2026 07:00:04 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "e09e59857df24e5a1661ba89b00141e3470bef96cb55d9880ef2e185d67ac0a3"
+ },
+ "https://www.city.setagaya.lg.jp/02241/online_tetsuzuki/390.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"6b8f-65edb7452461a\"",
+  "lastModified": "Wed, 28 Oct 2026 00:15:02 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "fbe2cc9c19912263e52f2cf3f07ced674f795299cbf278fa959d3eeddff3ee71"
+ },
+ "https://www.city.setagaya.lg.jp/02241/online_tetsuzuki/391.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"734a-65cbc1b90954b\"",
+  "lastModified": "Thu, 01 Oct 2026 00:00:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "60c48701955e7b70bcf7021b2e4760a6541bdb25fcbf37c5eb6547403a9d498d"
+ },
+ "https://www.city.setagaya.lg.jp/documents/409/wakedashid-data-e.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "W/\"381316-64e8335a64346\"",
+  "lastModified": "Fri, 03 Apr 2026 00:15:08 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "1531c8f221b3b55afe811d4405ba6ca6b437ee445cd943c56220a3aa487eb306"
+ },
+ "https://www.city.shibuya.tokyo.jp/guide/website/list/site_policy.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7656c87b62e65f63e62e0f4a73bd3547eeb12bfdcbfb9abab96abf2359234574"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "655100088694710d12e9586f05c36ab63ecf408bcc06797a9acd7e206ff9b614"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/20150218kasai.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7edd0c3a1bbff304a85b8d315853f17c06e9d87c57ced0f74be0c2442015ca6d"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/funen_gomi.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "485ac05f2bd93e4024b42bd3cde6c464468a92c816a9a350019d1d9b7d61d868"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_bonbe_henko.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "0da3658d438002698d60670fe22f1318a26b2a3e2aa0c85e414ec52d95c29b8c"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_chusha.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "d3d8c0c42c3cd410c31dc39f3c8b06b361df3975b2cc587dde1c8dbe13d68903"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "f63ee1d508b46c21db7a4b0f3a0fc92707e3724b1d0cd5205a7e5d8c75f27718"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_panf.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "fd080077ac0d2bffe7005852d4f6ff55c10e25ecfb610ad9985486f3f1c2cadb"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "bf31d5fbb7f87c674aed0fa22d36cfb9d85474c34fddf32b4b47efcd7aed108c"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_suigin.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "f61ad5c0360b50db4472bdf24707ed9f8d68288d7842bb622fa021c35c272011"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomid.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "9e57bac68272510225e104bc61e40ea5b1e4963be932d9400f8f93780f34aca8"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/kanen_gomi.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c07667abf92450bb6895f2cf73411d8b7f70f55226a34cd03caf7396e0a2ba19"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/shushu_no.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "caf040826d209bc6dae2a215f4d1d372511370361fecf3fd3f14f18bfb2ade21"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/sibuyaku_sodaitesuuryou.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "4acc7e16340906f4795ee7a1120e29fb3406b051d8163f4c1b5d88b06b65bcb5"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/bicycle.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "bd2388a8be75d872c8f232f233dbc2dc6718b8b59483863ad9e03c4927273f94"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/elec.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c96be01a08bc99283645328d132162ef72d230b0ad1d9868b8a971dc10cbc514"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/fluorescent_tube.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7173a8c0e0e50ad66cf3641094fb5a734dc39d550c61598c108421120a955cbd"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/hurugi_box.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "2684170af496d483560fea537c48cfe3ab8c8972a51d6109a565a92d8915c31a"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/koshi.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "9b689f6cb640ccb5168010b300097facee44c7b65585de4bac73e1616f900b85"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/mini_elec.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "f4fd76414fe1fd661f95cb29bf1cb116babe64bb48d0e7c987218348838a3fa6"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/oil.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "5b44af030ecd77a077b0a430fdb223f1d5d91bdb1ac6d2b14e0dedf7416288c0"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/other.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c819f4259439f3e856e17d7da1719b89af9427090dfc379e77f5451e8e517c4d"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pack.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "9e0ac578f573a0e11b15b62fdacbb418347a54bf4e3b711dc7660e9b12ba815a"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/pc.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "a0cf811f3fd6235285a13f7a58305c6962753e55d881ac8db5b04525c01936b7"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/plastic_start.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "73fbf3daf7df7118b0d596d3f53c4e17d01a3c35c1dd614f3824f4ae327b9959"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "2f5bcd3bcf0079207eb9323f9491a68bbedb80b8da09ab21e8d46e7b857312ca"
+ },
+ "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/syokki-kaisyu-rinji.html": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "2451b57f5876cb63dc3c00d18f0e8a092293c0de980ee3fbb5478498e2e65ccf"
+ },
+ "https://www.city.shinjuku.lg.jp/content/000259262.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add23ce-2cca28\"",
+  "lastModified": "Sat, 24 Oct 2026 21:31:58 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "c4b46fa42bdc8004212d2974c709a9d7b987576bc389917ee5d84c943ecf653c"
+ },
+ "https://www.city.shinjuku.lg.jp/content/000394136.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5d39-5415d\"",
+  "lastModified": "Sun, 25 Oct 2026 01:36:57 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "c2c98abe6600fd15b3256efb22deac9bba4d0eff04f26131dac2b73a05f809a5"
+ },
+ "https://www.city.shinjuku.lg.jp/content/000409299.pdf": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6af1f760-f0acf\"",
+  "lastModified": "Mon, 09 Nov 2026 16:40:00 GMT",
+  "status": 200,
+  "contentType": "application/pdf",
+  "hash": "34b04f5007e3adda538af39d5fe8f9c4f8f4e66717f46c714a983eb8f629f8d3"
+ },
+ "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00016.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5ba5-115ba\"",
+  "lastModified": "Sun, 25 Oct 2026 01:30:13 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "cb9ab79296049f5ef3f2c6e748d01ad8a889bc9e7bfc219d67e36158c1262387"
+ },
+ "https://www.city.shinjuku.lg.jp/kankyo/seiso01_000001_00030.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adbfc36-1165a\"",
+  "lastModified": "Sat, 24 Oct 2026 00:30:46 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7b6c6e163423a77eddb8f85780b4a6a4c0b98e857c84fa8043067713866d1dcb"
+ },
+ "https://www.city.shinjuku.lg.jp/kankyo/seiso01_002052.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5c6d-11b70\"",
+  "lastModified": "Sun, 25 Oct 2026 01:33:33 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "7ec27451be7d956408d1a35d8c7808c35aa9155b12a8be140f6d5deaa3dd9b43"
+ },
+ "https://www.city.shinjuku.lg.jp/kusei/about.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc55b9-1079e\"",
+  "lastModified": "Sat, 24 Oct 2026 06:52:41 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "4df62c4e3518f76abad0b7ca11e81a16e9f78f25eebfdfa3e96f0befc76b88b2"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00001.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5fac-1e1ad\"",
+  "lastModified": "Sun, 25 Oct 2026 01:47:24 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "67bc4d81dfafbc0b4dc1ea42d57648f1f531fd0604e3bfc46856db379a7f9e02"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00002.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5e58-10c8e\"",
+  "lastModified": "Sun, 25 Oct 2026 01:41:44 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "8155df8e40b06bc8b09eb996da57cdecf2f5bc57232cb8dbbe7a1613ff6c23c0"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00003.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add23d9-10d43\"",
+  "lastModified": "Sat, 24 Oct 2026 21:32:09 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c8eb7ce7249e9355386db9cb83c47cb0ffd614d49eb1e19078ac40e59390a85f"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00004.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc00bf-11256\"",
+  "lastModified": "Sat, 24 Oct 2026 00:50:07 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c1955b499784fce7540532d5040a1a8dc4fe8f4888f8df52fe850f7a482934fa"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00005.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6addea59-11b0c\"",
+  "lastModified": "Sun, 25 Oct 2026 11:39:05 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "be62f5ddadc9f97fbf4abb6ea20c6f9a3f912b320d24d1b3f856ec431c049ae4"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00008.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6addc19c-1244e\"",
+  "lastModified": "Sun, 25 Oct 2026 08:45:16 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "a568007441c70f1522fa7ab3e9409837364a3b6f517766e2f094b0485be33d82"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00009.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc56f7-11b66\"",
+  "lastModified": "Sat, 24 Oct 2026 06:57:59 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c3b843b5bf85bc313cf7f6a6c4758a6988af0a3b0a192f09c9b0701ff69d4a2d"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00012.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6addc19b-104af\"",
+  "lastModified": "Sun, 25 Oct 2026 08:45:15 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "e1df0b35cde6af45e78aa0d96d9bc4f19999681dd48fcc00dd1729c735e8a8e9"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00013.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adb382f-100d2\"",
+  "lastModified": "Fri, 23 Oct 2026 10:34:23 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "1f1f92a39215db0c2776469c80f1468ea4a3e9a39e784ce75a26017e75af0e11"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00014.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc56f6-10238\"",
+  "lastModified": "Sat, 24 Oct 2026 06:57:58 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "01719db31103c20b8fdcab267aeba68774c9d9e157cf42dc75c7825a3cdb67e9"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00016.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6addc31b-11f6b\"",
+  "lastModified": "Sun, 25 Oct 2026 08:51:39 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "570e5358f618b241359b8ad31eea3938abcdfbadd409a904b80bf737de561dd4"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00019.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc0239-117b6\"",
+  "lastModified": "Sat, 24 Oct 2026 00:56:25 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "6e9486df2df15005a68648436118aa8719c45f055185effec3b09874dd25f59a"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00021.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc56f5-10cd2\"",
+  "lastModified": "Sat, 24 Oct 2026 06:57:57 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "89829d9796ce76dba7be33d68870e8d822f7a79f10d0ec18ec49ea258917e1fd"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_01_00022.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adbd73a-109a1\"",
+  "lastModified": "Fri, 23 Oct 2026 21:52:58 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "09bf60cce4b3faaea1bbe504a24528fb3946d66700c3964a5f581643455e20dc"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_02_00001.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add23d7-13521\"",
+  "lastModified": "Sat, 24 Oct 2026 21:32:07 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "aa4747aff3993f2350412edb48d87b7636b19b086b26c07f5a1bf7d4757c8486"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/file09_05_00001.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6addc199-1d122\"",
+  "lastModified": "Sun, 25 Oct 2026 08:45:13 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "b971fde71e394f028a5e53d2290156574f00ad7859f6edb98eafb216a9c83ec0"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/index09_01s.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adc5583-109fb\"",
+  "lastModified": "Sat, 24 Oct 2026 06:51:47 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "c5eef81c2090c228daf4672f9bde8ae6a6e76bf70561dd9dce2f6dec8ca74c9f"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000109.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5d5b-fdc4\"",
+  "lastModified": "Sun, 25 Oct 2026 01:37:31 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "9f7a49d0b16c56141bde601c1e0f9cd002923b09d24ffaabacbc77a11c59a8bc"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000110.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adb5298-fe12\"",
+  "lastModified": "Fri, 23 Oct 2026 12:27:04 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "71e939946704af621a572297dbdbd0970695000eab8981f78906e4c94c868604"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_000111.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6adb3646-ff21\"",
+  "lastModified": "Fri, 23 Oct 2026 10:26:14 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "689564153853e3b006d4fbfc3d3ff8173ab2b5dac84b7e2dd8ff41be809e0894"
+ },
+ "https://www.city.shinjuku.lg.jp/seikatsu/seiso01_001025.html": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"6add5d39-235ae\"",
+  "lastModified": "Sun, 25 Oct 2026 01:36:57 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "357c4cb471df9de99f2f5442e89e8dd4f222bca5fcde2bdae59e462973dc5649"
+ },
+ "https://www.shinjuku-sodai.com": {
+  "checkedOn": "2026-11-10",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "a2d1603ab3ae5b29b5338bb7be98d369eb6690d964583230089a3a3367a3a99e"
+ },
+ "https://www.sodai-setagaya.jp/": {
+  "checkedOn": "2026-11-10",
+  "etag": "\"108-625bed4a47083\"",
+  "lastModified": "Thu, 31 Oct 2024 05:10:01 GMT",
+  "status": 200,
+  "contentType": "text/html",
+  "hash": "afb1da07180b0e6f50a7b398b67612bc1137c64bfa6a9a8cb0670f2208a8270d"
+ }
+}

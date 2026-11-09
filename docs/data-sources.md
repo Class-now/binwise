@@ -37,7 +37,7 @@ All three wards hold the copyright to their web content and restrict reproductio
 - does not copy images, illustrations, PDFs or layouts. Shinjuku asks sites not to link to its PDFs directly, so item sources point to the HTML pages that host them.
 - states in the app and README that this is an unofficial guide and that the ward's own pages take precedence.
 
-Rules change. `scripts/check-sources.mjs` (Task 5) re-checks these URLs for content changes.
+Rules change. `scripts/check-sources.mjs` re-checks these URLs for content changes against the baseline in `data/source-hashes.json` (see `docs/impact.md`).
 
 ## Sources by ward
 
