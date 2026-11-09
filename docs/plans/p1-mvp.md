@@ -65,7 +65,7 @@ Do NOT implement: wards other than these three.
 - Quiz mode "Sort it!" (10 items, ward-specific, score + explanations) and the impact counter.
 - Accessibility (labels, aria-live, colour not the only cue — category icons/text), 360 px layout, dark mode.
 - Headless Chromium smoke `scripts/smoke.mjs` against the offline dev server (search "PET bottle" in Shibuya → three part cards; quiz completes); screenshots to `docs/screenshots/` at 1280×800 and 390×844.
-- [ ] smoke passes, screenshots committed
+- [x] smoke passes, screenshots committed
 
 ### Task 5: Impact measurement and docs
 - `docs/impact.md` + the Theme Track paragraph: problem (mis-sorted household waste in Tokyo wards — rejected bags, contaminated recycling streams; cite the wards' own published figures on 資源 contamination / 不適正排出 if found, otherwise state it as the measurement goal without inventing numbers) and how we would measure success: (1) quiz accuracy before/after first week of use, (2) share of lookups where the user's guessed category (asked optionally before showing the answer) differed from the rule = mis-sorts prevented, (3) pilot with a building's 違反シール count before/after (needs a partner), (4) data freshness: rules re-checked against official pages monthly by `scripts/check-sources.mjs` (HEAD request + content hash change report).

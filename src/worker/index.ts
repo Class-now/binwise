@@ -1,5 +1,6 @@
 import type { AiRunner } from "./ai";
 import { clientIp, handleIdentify, handleLookup, json, rateLimit } from "./api";
+import { handleCatalog } from "./catalog";
 
 export { json };
 
@@ -14,6 +15,9 @@ export default {
     const ai = env.AI as unknown as AiRunner | undefined;
     if (url.pathname === "/api/health") {
       return json({ ok: true, ai: Boolean(env.AI) });
+    }
+    if (url.pathname === "/api/catalog") {
+      return handleCatalog(request);
     }
     if (url.pathname === "/api/identify" || url.pathname === "/api/lookup") {
       const wait = rateLimit(clientIp(request));
