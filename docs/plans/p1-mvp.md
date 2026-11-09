@@ -38,7 +38,7 @@ Tokyo's 23 wards each have their own sorting rules (Shibuya: 可燃ごみ / 不�
 
 ### Task 1: Scaffold
 - `package.json` (build/dev/test scripts as above; dev = `wrangler dev -c wrangler.offline.jsonc --port 8798`), `tsconfig.json`, both wrangler configs, `.gitignore`, MIT `LICENSE` ("2026 Shotaro Takakura"), placeholder page.
-- [ ] build, type check and an empty test run pass
+- [x] build, type check and an empty test run pass
 
 ### Task 2: Rules dataset for three wards
 - Research the **official** ward pages (use web fetch/search): 渋谷区 (city.shibuya.tokyo.jp ごみ・リサイクル, 資源とごみの分け方・出し方, ごみ分別辞典 if published), 新宿区 (city.shinjuku.lg.jp 資源・ごみの分け方 / 分別辞典), 世田谷区 (city.setagaya.lg.jp 資源・ごみの分け方, 製品プラスチック 2025 changes if any). Record each source URL and the date read.

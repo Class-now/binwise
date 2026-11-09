@@ -1,0 +1,22 @@
+{
+  "name": "binwise",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BinWise Tokyo: snap an item, learn exactly how your ward wants it thrown away",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/client/app.ts --bundle --format=esm --target=es2022 --minify --sourcemap --outfile=public/app.js",
+    "dev": "npm run build && wrangler dev -c wrangler.offline.jsonc --port 8798",
+    "deploy": "npm run build && wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261109.1",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.159.0"
+  }
+}
