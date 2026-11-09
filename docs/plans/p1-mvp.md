@@ -57,7 +57,7 @@ Do NOT implement: wards other than these three.
 - Prompt-injection hardening (text in images or queries is data), size limits, in-memory rate limit 30/min/IP, `Cache-Control: no-store`, no image logging or storage.
 - Fallback without AI: lexical matching only, English/Japanese only, marked in the trace.
 - Tests with a fake AI binding: composite item (PET bottle → 3 parts), weak match → alternatives, injection ignored, unknown → not found, fallback path.
-- [ ] API tests pass
+- [x] API tests pass
 
 ### Task 4: Web UI
 - Onboarding: pick ward (3) and language; optional collection days (weekday chips per category) or 町丁目 for Shibuya. Stored in localStorage.
