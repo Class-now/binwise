@@ -2,7 +2,7 @@
 
 **Snap an item, learn exactly how your ward wants it thrown away.**
 
-Live: https://binwise.shotaro-takakura.workers.dev · Built for [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com), Theme Track "Rethinking Waste".
+Live: https://binwise.shotaro-takakura.workers.dev · Demo video: https://youtu.be/ccLrkW5QbEQ · Built for [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com), Theme Track "Rethinking Waste".
 
 > BinWise is an unofficial guide. The ward's own pages always take precedence, and every answer links to them.
 

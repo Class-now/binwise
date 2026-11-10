@@ -4,7 +4,7 @@
 
 **Track:** Theme Track "Rethinking Waste"
 
-**Links:** live demo https://binwise.shotaro-takakura.workers.dev · repo https://github.com/Class-now/binwise · video (YouTube link after upload)
+**Links:** live demo https://binwise.shotaro-takakura.workers.dev · repo https://github.com/Class-now/binwise · video https://youtu.be/ccLrkW5QbEQ
 
 ## Inspiration
 
