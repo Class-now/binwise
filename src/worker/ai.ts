@@ -1,7 +1,8 @@
 // Thin wrappers around Workers AI. Every model output is parsed and validated here;
 // nothing a model says is ever shown as a disposal rule (rules come only from the dataset).
 
-export const VISION_MODEL = "@cf/meta/llama-3.2-11b-vision-instruct";
+export const VISION_MODEL = "@cf/meta/llama-4-scout-17b-16e-instruct";
+export const VISION_FALLBACK_MODEL = "@cf/mistralai/mistral-small-3.1-24b-instruct";
 export const TEXT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 export const EMBED_MODEL = "@cf/baai/bge-m3";
 
@@ -20,7 +21,15 @@ const DATA_RULE =
 
 /** Pull the first JSON object or array out of a model response. */
 export function extractJson(raw: unknown): unknown {
-  const value = raw && typeof raw === "object" && "response" in raw ? (raw as { response: unknown }).response : raw;
+  let value: unknown = raw;
+  if (raw && typeof raw === "object") {
+    if ("response" in raw) value = (raw as { response: unknown }).response;
+    else {
+      // Newer Workers AI models answer in the OpenAI chat-completion shape.
+      const content = (raw as { choices?: { message?: { content?: unknown } }[] }).choices?.[0]?.message?.content;
+      if (content !== undefined) value = content;
+    }
+  }
   if (value && typeof value === "object") return value;
   if (typeof value !== "string") return undefined;
   const start = value.search(/[[{]/);
@@ -75,36 +84,55 @@ Reply with JSON only: {"items":[{"name_en":"...","materials":["..."],"parts":[".
 const IDENTIFY_STRICT = `${IDENTIFY_PROMPT}
 Your previous reply was not valid JSON. Output exactly one JSON object and nothing else, at most 3 items, each name under 6 words.`;
 
-let visionAgreed = false;
-
-async function agreeVisionLicense(ai: AiRunner): Promise<void> {
-  if (visionAgreed) return;
-  try {
-    // Meta's Llama 3.2 vision model requires a one-time "agree" per account before first use.
-    await ai.run(VISION_MODEL, { prompt: "agree" });
-  } catch {
-    // Already agreed or not required; the real call below surfaces real errors.
-  }
-  visionAgreed = true;
+function toBase64(bytes: Uint8Array): string {
+  let s = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(s);
 }
 
+/**
+ * Asks the vision model, then once more with a stricter prompt. If the main model throws or both
+ * replies are unusable, the fallback model gets one try.
+ */
 export async function identifyImage(
   ai: AiRunner,
   image: Uint8Array,
-): Promise<{ items: IdentifiedItem[] | undefined; attempts: number }> {
-  await agreeVisionLicense(ai);
-  const prompts = [IDENTIFY_PROMPT, IDENTIFY_STRICT];
-  for (let i = 0; i < prompts.length; i++) {
-    const raw = await ai.run(VISION_MODEL, {
-      messages: [{ role: "user", content: prompts[i] }],
-      image: Array.from(image),
+  mime = "image/jpeg",
+): Promise<{ items: IdentifiedItem[] | undefined; attempts: number; model: string }> {
+  const url = `data:${mime};base64,${toBase64(image)}`;
+  const ask = (model: string, prompt: string) =>
+    ai.run(model, {
+      messages: [
+        {
+          role: "user",
+          content: [
+            { type: "text", text: prompt },
+            { type: "image_url", image_url: { url } },
+          ],
+        },
+      ],
       max_tokens: 400,
       temperature: 0,
     });
-    const items = validateIdentified(extractJson(raw));
-    if (items) return { items, attempts: i + 1 };
+  const tries: [string, string][] = [
+    [VISION_MODEL, IDENTIFY_PROMPT],
+    [VISION_MODEL, IDENTIFY_STRICT],
+    [VISION_FALLBACK_MODEL, IDENTIFY_PROMPT],
+  ];
+  let attempts = 0;
+  let lastError: unknown;
+  for (const [model, prompt] of tries) {
+    attempts++;
+    try {
+      const items = validateIdentified(extractJson(await ask(model, prompt)));
+      if (items) return { items, attempts, model };
+      lastError = undefined;
+    } catch (err) {
+      lastError = err;
+    }
   }
-  return { items: undefined, attempts: prompts.length };
+  if (lastError) throw lastError;
+  return { items: undefined, attempts, model: VISION_FALLBACK_MODEL };
 }
 
 /** Turn free text in any language into an English (and Japanese) item name. */

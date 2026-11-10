@@ -902,8 +902,8 @@
      },
      "category": "store-takeback",
      "fate": {
-      "ja": "販売店や回収箱から専門の事業者に送られ、金属などがリサイクルされる。発火の危険があるため家庭ごみに混ぜない。",
-      "en": "Sent from shops or collection boxes to specialist recyclers who recover the metals; kept out of household waste because of the fire risk."
+      "ja": "回収された油は、燃料やせっけんなどの原料として再利用される。",
+      "en": "Collected oil is reused as a raw material, for example for fuel or soap."
      }
     }
    ],
@@ -1179,8 +1179,8 @@
      },
      "category": "store-takeback",
      "fate": {
-      "ja": "販売店や回収箱から専門の事業者に送られ、金属などがリサイクルされる。発火の危険があるため家庭ごみに混ぜない。",
-      "en": "Sent from shops or collection boxes to specialist recyclers who recover the metals; kept out of household waste because of the fire risk."
+      "ja": "店頭で回収されたトレイはリサイクル事業者に送られ、新しいトレイなどのプラスチック製品になる。",
+      "en": "Trays returned at shops go to recyclers and become new trays or other plastic products."
      }
     }
    ],
@@ -5374,8 +5374,8 @@
      },
      "category": "store-takeback",
      "fate": {
-      "ja": "販売店や回収箱から専門の事業者に送られ、金属などがリサイクルされる。発火の危険があるため家庭ごみに混ぜない。",
-      "en": "Sent from shops or collection boxes to specialist recyclers who recover the metals; kept out of household waste because of the fire risk."
+      "ja": "専門の施設に送られ、水銀が回収される。",
+      "en": "Sent to a specialist facility that recovers the mercury."
      }
     }
    ],

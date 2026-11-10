@@ -154,11 +154,13 @@ export async function handleIdentify(request: Request, ai: AiRunner | undefined)
   const trace: Trace = { mode: "ai", steps: [] };
   let result: Awaited<ReturnType<typeof identifyImage>>;
   try {
-    result = await timed(trace, "identify", VISION_MODEL, () => identifyImage(ai, bytes));
+    result = await timed(trace, "identify", VISION_MODEL, () => identifyImage(ai, bytes, type));
   } catch {
     return json({ error: "identify_failed", trace }, 502);
   }
-  trace.steps[trace.steps.length - 1]!.detail = `attempts: ${result.attempts}`;
+  const step = trace.steps[trace.steps.length - 1]!;
+  step.model = result.model;
+  step.detail = `attempts: ${result.attempts}`;
   if (!result.items) return json({ error: "identify_failed", trace }, 502);
   return json({ items: result.items, trace });
 }

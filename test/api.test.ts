@@ -1,6 +1,10 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import worker, { type Env } from "../src/worker/index";
-import { EMBED_MODEL, TEXT_MODEL, VISION_MODEL } from "../src/worker/ai";
+import { EMBED_MODEL, TEXT_MODEL, VISION_FALLBACK_MODEL, VISION_MODEL } from "../src/worker/ai";
+
+/** The text and image parts of a vision call. */
+const visionText = (c: Call): string => c.input.messages[0].content[0].text;
+const isVision = (c: Call) => Array.isArray(c.input?.messages?.[0]?.content);
 import { RATE_LIMIT, resetEmbeddingCache, resetRateLimit } from "../src/worker/api";
 import { WARDS } from "../src/worker/data";
 
@@ -14,7 +18,6 @@ function fakeAi(handlers: Partial<Record<string, (input: any, n: number) => unkn
     calls,
     async run(model: string, input: any) {
       calls.push({ model, input });
-      if (input && input.prompt === "agree") return { response: "Thank you for agreeing" };
       counts[model] = (counts[model] ?? 0) + 1;
       const h = handlers[model];
       if (!h) throw new Error(`no handler for ${model}`);
@@ -224,9 +227,9 @@ describe("POST /api/identify", () => {
     const body: any = await res.json();
     expect(body.items).toEqual([{ name_en: "PET bottle", materials: ["PET", "PP"], parts: ["bottle", "cap", "label"] }]);
     expect(body.trace.steps[0]).toMatchObject({ step: "identify", model: VISION_MODEL, detail: "attempts: 1" });
-    const call = ai.calls.find((c) => c.model === VISION_MODEL && c.input.image)!;
-    expect(call.input.image).toEqual(Array.from(jpeg));
-    expect(call.input.messages[0].content).toContain("Do not give disposal advice");
+    const call = ai.calls.find((c) => c.model === VISION_MODEL && isVision(c))!;
+    expect(call.input.messages[0].content[1].image_url.url).toBe("data:image/jpeg;base64," + btoa(String.fromCharCode(...jpeg)));
+    expect(visionText(call)).toContain("Do not give disposal advice");
   });
 
   it("retries once with a stricter prompt when the JSON is invalid", async () => {
@@ -237,22 +240,37 @@ describe("POST /api/identify", () => {
     const body: any = await (await identify(withAi(ai), jpeg)).json();
     expect(body.items[0].name_en).toBe("glass bottle");
     expect(body.trace.steps[0].detail).toBe("attempts: 2");
-    const prompts = ai.calls.filter((c) => c.input.image).map((c) => c.input.messages[0].content);
+    const prompts = ai.calls.filter(isVision).map(visionText);
     expect(prompts[1]).toContain("not valid JSON");
   });
 
   it("fails with 502 after two invalid answers", async () => {
-    const ai = fakeAi({ [VISION_MODEL]: () => ({ response: "no idea" }) });
+    const ai = fakeAi({ [VISION_MODEL]: () => ({ response: "no idea" }), [VISION_FALLBACK_MODEL]: () => ({ response: "no idea" }) });
     expect((await identify(withAi(ai), jpeg)).status).toBe(502);
+  });
+
+  it("uses the fallback vision model when the main one throws, and reads the chat-completion shape", async () => {
+    const ai = fakeAi({
+      [VISION_MODEL]: () => {
+        throw new Error("5007: model unavailable");
+      },
+      [VISION_FALLBACK_MODEL]: () => ({ choices: [{ message: { content: '{"items":[{"name_en":"umbrella"}]}' } }] }),
+    });
+    const res = await identify(withAi(ai), jpeg);
+    expect(res.status).toBe(200);
+    const body: any = await res.json();
+    expect(body.items[0].name_en).toBe("umbrella");
+    expect(body.trace.steps[0]).toMatchObject({ model: VISION_FALLBACK_MODEL, detail: "attempts: 3" });
   });
 
   it("retries when the JSON has no usable items, then fails with 502", async () => {
     const ai = fakeAi({
       [VISION_MODEL]: (_input, n) => (n === 1 ? { response: '{"items":[]}' } : { response: '{"items":[{"name":"x"}]}' }),
+      [VISION_FALLBACK_MODEL]: () => ({ response: '{"items":[]}' }),
     });
     const res = await identify(withAi(ai), jpeg);
     expect(res.status).toBe(502);
-    expect(ai.calls.filter((c) => c.input.image)).toHaveLength(2);
+    expect(ai.calls.filter(isVision)).toHaveLength(3);
   });
 
   it("rejects an oversized body sent without Content-Length", async () => {

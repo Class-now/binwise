@@ -4,7 +4,7 @@
 
 **Track:** Theme Track "Rethinking Waste"
 
-**Links:** live demo `https://binwise.<account>.workers.dev` · repo https://github.com/Class-now/binwise · video (YouTube link after upload)
+**Links:** live demo https://binwise.shotaro-takakura.workers.dev · repo https://github.com/Class-now/binwise · video (YouTube link after upload)
 
 ## Inspiration
 
@@ -24,7 +24,7 @@ I'm a university student living alone in Shibuya. In Tokyo, "how do I throw this
 
 - **Rules dataset first.** I read the official waste pages of all three wards (89 URLs: sorting dictionaries, category pages, bulky-waste fee lists, collection-day tables). From them I built a dataset of 181 household items with shared ids across wards. Every entry has its source URL. When a ward doesn't name an item, the category is derived from a general rule, and that rule is quoted. A validation script checks the schema and that every part's category exists.
 - **Cloudflare Workers** serves the frontend (vanilla TypeScript, bundled with esbuild) and the API. The dataset is bundled JSON, so there is no database.
-- **Workers AI, with a deliberately narrow role.** Llama 3.2 11B Vision identifies the object and its parts and returns JSON only. Llama 3.3 70B normalises odd queries ("the thing you fry tempura with, but used") and translates preparation steps. bge-m3 embeddings provide multilingual fuzzy matching. Each answer card is built only from dataset fields, so the model never writes a rule.
+- **Workers AI, with a deliberately narrow role.** Llama 4 Scout identifies the object and its parts and returns JSON only. Llama 3.3 70B normalises odd queries ("the thing you fry tempura with, but used") and translates preparation steps. bge-m3 embeddings provide multilingual fuzzy matching. Each answer card is built only from dataset fields, so the model never writes a rule.
 - A deterministic lexical matcher over aliases in six languages runs first and is also the offline fallback. It is fully tested with a fake AI binding.
 - `check-sources.mjs` re-hashes every official page so we know when a ward changes its rules.
 

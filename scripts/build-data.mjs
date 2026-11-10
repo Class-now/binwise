@@ -15,6 +15,25 @@ import { WARDS } from "./validate-data.mjs";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const readJson = (p) => JSON.parse(readFileSync(join(root, p), "utf8"));
 
+const TAKEBACK_FATE = {
+  "used-cooking-oil": {
+    ja: "回収された油は、燃料やせっけんなどの原料として再利用される。",
+    en: "Collected oil is reused as a raw material, for example for fuel or soap.",
+  },
+  "plastic-food-tray": {
+    ja: "店頭で回収されたトレイはリサイクル事業者に送られ、新しいトレイなどのプラスチック製品になる。",
+    en: "Trays returned at shops go to recyclers and become new trays or other plastic products.",
+  },
+  "insulin-needle": {
+    ja: "薬局や医療機関に戻し、医療廃棄物として処理される。収集作業員のけがを防ぐため家庭ごみに混ぜない。",
+    en: "Returned to the pharmacy or clinic and treated as medical waste; kept out of household waste so collection workers are not injured.",
+  },
+  "mercury-thermometer": {
+    ja: "専門の施設に送られ、水銀が回収される。",
+    en: "Sent to a specialist facility that recovers the mercury.",
+  },
+};
+
 function partKey(name) {
   // research files use the item-list names: "cup (plastic or paper)" → cup, "film window" → window
   return name.replace(/[(（].*$/, "").trim().split(/\s+/).at(-1).toLowerCase();
@@ -73,7 +92,9 @@ export function buildWard(ward) {
       if (!category) throw new Error(`${ward}: ${m.id} has no category`);
       parts = [{ id: "whole", name: { ja: m.n.ja[0], en: m.n.en[0] }, category }];
     }
-    parts = parts.map((p) => ({ ...p, fate: fateOf(p.category) }));
+    // The take-back category text is about batteries; these items go back through shops for other reasons.
+    const takeback = p => (p.category === "store-takeback" ? TAKEBACK_FATE[m.id] : undefined);
+    parts = parts.map((p) => ({ ...p, fate: takeback(p) ?? fateOf(p.category) }));
 
     const item = {
       id: m.id,

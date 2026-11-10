@@ -2,7 +2,7 @@
 
 **Snap an item, learn exactly how your ward wants it thrown away.**
 
-Live: `https://binwise.<account>.workers.dev` (placeholder until deployed) · Built for [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com), Theme Track "Rethinking Waste".
+Live: https://binwise.shotaro-takakura.workers.dev · Built for [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com), Theme Track "Rethinking Waste".
 
 > BinWise is an unofficial guide. The ward's own pages always take precedence, and every answer links to them.
 
@@ -54,7 +54,7 @@ flowchart LR
   U -->|text / identified parts| LK[POST /api/lookup]
   U -->|item names, quiz, areas| CT[GET /api/catalog]
   subgraph Worker[Cloudflare Worker]
-    ID --> V["Llama 3.2 11B Vision<br/>identify object + parts (JSON only)"]
+    ID --> V["Llama 4 Scout (vision)<br/>identify object + parts (JSON only)"]
     LK --> LX[lexical matcher<br/>aliases in 6 languages]
     LX -->|no confident hit| N["Llama 3.3 70B<br/>normalise the query"]
     N -->|still unclear| E["bge-m3 embeddings<br/>cosine match"]
@@ -67,7 +67,7 @@ flowchart LR
 ```
 
 - **Cloudflare Workers** serves the static frontend from `public/` and the APIs under `/api/*`. There is no database: the dataset is JSON bundled into the worker.
-- **Workers AI**: `@cf/meta/llama-3.2-11b-vision-instruct` identifies items in photos, `@cf/meta/llama-3.3-70b-instruct-fp8-fast` normalises queries and translates, and `@cf/baai/bge-m3` provides multilingual embeddings for fuzzy matching. Item embeddings are computed on the first request and cached in memory.
+- **Workers AI**: `@cf/meta/llama-4-scout-17b-16e-instruct` identifies items in photos (`@cf/mistralai/mistral-small-3.1-24b-instruct` takes over if it fails), `@cf/meta/llama-3.3-70b-instruct-fp8-fast` normalises queries and translates, and `@cf/baai/bge-m3` provides multilingual embeddings for fuzzy matching. Item embeddings are computed on the first request and cached in memory.
 - Without AI (offline or on errors), lexical matching runs in English and Japanese, and the trace marks this.
 - Hardening: text inside images and queries is treated as data, not instructions. Images are limited to 5 MB, requests to 30 per minute per IP, responses are `Cache-Control: no-store`, and images are never logged or stored.
 
@@ -87,6 +87,7 @@ All rules come from the wards' official websites, read on 2026-11-10. Every URL,
   - `derived: false`: the ward lists the item by name.
   - `derived: true`: the category follows from a general ward rule, and that rule is quoted in `ruleQuote`.
   - Items that no official page covers go to a "not listed / ask the office" category instead of being guessed.
+- `samples/water-bottle.jpg` (used by the demo recording) is "Bottle of Water.jpg" from Wikimedia Commons, released under CC0.
 - Rules are used as facts. Verbatim text is kept only as short quotations with their source, and no images, PDFs or layouts are copied.
 - `scripts/check-sources.mjs` detects when an official page changes, so the dataset can be re-checked (monthly).
 
@@ -100,7 +101,7 @@ All rules come from the wards' official websites, read on 2026-11-10. Every URL,
 
 ## Built with Llama
 
-BinWise uses Meta Llama models via Cloudflare Workers AI: Llama 3.2 11B Vision Instruct and Llama 3.3 70B Instruct. **Built with Llama.** Llama 3.2 is licensed under the [Llama 3.2 Community License](https://www.llama.com/llama3_2/license/), Copyright © Meta Platforms, Inc. All Rights Reserved. Llama 3.3 is licensed under the [Llama 3.3 Community License](https://www.llama.com/llama3_3/license/). The embedding model is BAAI bge-m3 (MIT).
+BinWise uses Meta Llama models via Cloudflare Workers AI: Llama 4 Scout and Llama 3.3 70B Instruct. **Built with Llama.** Llama 4 is licensed under the [Llama 4 Community License](https://www.llama.com/llama4/license/), Copyright © Meta Platforms, Inc. All Rights Reserved. Llama 3.3 is licensed under the [Llama 3.3 Community License](https://www.llama.com/llama3_3/license/). The embedding model is BAAI bge-m3 (MIT).
 
 ## Licences
 

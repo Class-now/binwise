@@ -43,7 +43,9 @@ function showCaption(text) {
   el.style.opacity = text ? "1" : "0";
 }
 
-const pause = (ms) => new Promise((r) => setTimeout(r, ms));
+// DEMO_PACE stretches every hold so captions can be read (default 2.2 ≈ 2.5 minutes; 1 for a quick check).
+const PACE = Number(process.env.DEMO_PACE ?? 2.2);
+const pause = (ms) => new Promise((r) => setTimeout(r, ms * PACE));
 
 async function record() {
   mkdirSync(outDir, { recursive: true });
@@ -104,6 +106,18 @@ async function record() {
   await pause(2500);
   await page.click("#save-setup");
   await page.locator("#search").waitFor({ state: "visible" });
+
+  // 1b. Photo (needs Workers AI, so only against a deployed worker)
+  if (!/localhost|127\.0\.0\.1/.test(base)) {
+    await scene("photo", "Snap an item: the vision model names it and its parts. The bin comes from the ward's rules.", 1500);
+    const lookedUp = page.waitForResponse((r) => r.url().endsWith("/api/lookup"), { timeout: 90_000 });
+    await page.setInputFiles("#photo", join(root, "samples", "water-bottle.jpg"));
+    await lookedUp;
+    await page.locator("#results .result").first().waitFor();
+    await pause(2500);
+    await scrollResults();
+    await page.evaluate(() => window.scrollTo(0, 0));
+  }
 
   // 2. Composite item
   await scene("pet", "A PET bottle is three things: bottle, cap and label.", 500);
